@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SFIndieFest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="films">Films</string>
+    <string name="schedule">Schedule</string>
+    <string name="search">Search</string>
+    <string name="comment">Comment</string>
+    <string name="about">About</string>
+    <string name="divider">Divider</string>
+    <string name="comments">Comments</string>
+    <string name="about_sf_indiefest">About SF IndieFest</string>
+    <string name="film_image">Film Image</string>
+    <string name="film_title">Film Title</string>
+    <string name="date_time_location">Date &amp; Time Location</string>
+    <string name="film_synopsis">Film Synopsis</string>
+    <string name="trailer">Trailer</string>
+    <string name="buy_tickets">Buy Tickets</string>
+    <string name="title_activity_film_detail">Film Title</string>
+    <string name="title_activity_film_trailer">Film Trailer</string>
+    <string name="title_activity_buy_tickets">Buy Tickets</string>
+    <string name="title_activity_search">Search</string>
+    <string name="enter_actor_or_director_name">Enter Actor or Director Name</string>
+    <string name="enter_comments_here">Enter comments here</string>
+    <string name="about_sf_indiefest_">About SF IndieFest...</string>
+    <string name="directions">Directions</string>
+    <string name="title_activity_film_location">Film Location</string>
+
+</resources>

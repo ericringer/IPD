@@ -1,0 +1,58 @@
+package com.ericringer.sfindiefestapp.sfindiefest;
+
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.MenuItem;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+import com.ericringer.sfindiefest.types.Film;
+
+@SuppressLint("SetJavaScriptEnabled")
+public class BuyTicketsActivity extends Activity {
+	private String purchaseUrl;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_buy_tickets);
+	setContentView(R.layout.activity_film_trailer);
+		
+		purchaseUrl = getIntent().getExtras().getString(Film.PURCHASE_URL, "");
+		if(TextUtils.isEmpty(purchaseUrl)){
+	    	finish();
+			return;
+		}
+		
+		prepareLayout();
+	}
+
+	private void prepareLayout() {
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		WebView webTrailer = (WebView)findViewById(R.id.webTrailer);
+		webTrailer.getSettings().setJavaScriptEnabled(true);
+		webTrailer.setWebViewClient(new WebViewClient(){
+
+			@Override
+			public boolean shouldOverrideUrlLoading(WebView view, String url) {
+				view.loadUrl(url);
+				return true;
+			}
+			
+			
+		});
+		webTrailer.loadUrl(purchaseUrl);
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+	    switch (item.getItemId()) {
+	    case android.R.id.home:
+	    	onBackPressed();
+	        return true;
+	    }
+	    return super.onOptionsItemSelected(item);
+	}
+}

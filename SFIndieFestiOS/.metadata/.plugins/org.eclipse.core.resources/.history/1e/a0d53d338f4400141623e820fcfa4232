@@ -1,0 +1,80 @@
+package com.ericringer.sfindiefestapp.types;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Film implements Serializable{
+	private static final long serialVersionUID = 676045795640966085L;
+	public static final String FILM = "film";
+	public static final String TRAILER_URL = "trailerUrl";
+	public static final String PURCHASE_URL = "purchaseUrl";
+	
+	private String filmTitle;
+	private String filmImageUrl;
+	private String dateTime;
+	private String synopsis;
+	private String trailerUrl;
+	private String filmUid;
+	public Film(){}
+	public Film(String filmTitle){
+		this.filmTitle = filmTitle;
+	}
+	public Film(String filmTitle,String filmImageUrl,String dateTime,String synopsis,String trailerUrl,String filmUid){
+		this.filmTitle = filmTitle;
+		this.filmImageUrl = filmImageUrl;
+		this.dateTime = dateTime;
+		this.synopsis = synopsis;
+		this.trailerUrl = trailerUrl;
+		this.filmUid = filmUid;
+	}
+	public String getFilmTitle() {
+		return filmTitle;
+	}
+	public String getFilmImageUrl() {
+		return filmImageUrl;
+	}
+	public void setFilmImageUrl(String filmImageUrl) {
+		this.filmImageUrl = filmImageUrl;
+	}
+	public void setFilmName(String filmName) {
+		this.filmTitle = filmName;
+	}
+	public String getDateTime() {
+		return dateTime;
+	}
+	public void setDateTime(String dateTime) {
+		this.dateTime = dateTime;
+	}
+	public String getSynopsis() {
+		return synopsis;
+	}
+	public void setSynopsis(String synopsis) {
+		this.synopsis = synopsis;
+	}
+	public String getTrailerUrl() {
+		return trailerUrl;
+	}
+	public void setTrailerUrl(String trailerUrl) {
+		this.trailerUrl = trailerUrl;
+	}
+	public String getFilmUid() {
+		return filmUid;
+	}
+	public void setFilmUid(String filmUid) {
+		this.filmUid = filmUid;
+	}
+	public String getPurchaseUrl(){
+		return "http://www.brownpapertickets.com/";
+	}
+	public static List<Film> getStaticFilms(){
+		List<Film> films = new ArrayList<Film>();
+		films.add(new Film("My Film","http://developer.android.com/assets/images/dac_logo.png","09/22/2014 7:00 AM","Quick Synopsis","https://www.youtube.com/watch?v=84VQG9pnQXA","1"));
+		films.add(new Film("Film 2","http://developer.android.com/assets/images/dac_logo.png","09/22/2014 7:00 AM","Quick Synopsis","https://www.youtube.com/watch?v=84VQG9pnQXA","2"));
+		films.add(new Film("Other Film","http://developer.android.com/assets/images/dac_logo.png","09/22/2014 7:00 AM","Quick Synopsis","https://www.youtube.com/watch?v=84VQG9pnQXA","3"));
+		films.add(new Film("Awesome Film","http://developer.android.com/assets/images/dac_logo.png","09/22/2014 7:00 AM","Quick Synopsis","https://www.youtube.com/watch?v=84VQG9pnQXA","4"));
+		return films;
+	}
+	
+}

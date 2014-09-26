@@ -1,0 +1,39 @@
+package com.ericringer.sfindiefestapp.sfindiefest;
+
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
+import android.view.MenuItem;
+
+import com.ericringer.sfindiefestapp.fragments.FilmLocationFragment;
+import com.ericringer.sfindiefestapp.types.Film;
+
+public class FilmLocationActivity extends FragmentActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_film_location);
+		prepareLayout();
+	}
+
+	private void prepareLayout() {
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		Film film = (Film) getIntent().getExtras().getSerializable(Film.FILM);
+		FragmentTransaction trans = getSupportFragmentManager().beginTransaction();
+		trans.add(R.id.fragFilmLocation, FilmLocationFragment.getInstance(film, null), "fragFilmLocation");
+		trans.commit();		
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+	    switch (item.getItemId()) {
+	    case android.R.id.home:
+	        //NavUtils.navigateUpFromSameTask(this);
+	    	onBackPressed();
+	        return true;
+	    }
+	    return super.onOptionsItemSelected(item);
+	}
+
+}

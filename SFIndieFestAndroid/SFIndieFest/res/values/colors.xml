@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="topbar_bg">#cacac8</color>
+    <color name="dark_grey">#404041</color>
+    <color name="light_grey">#B9BBBD</color>
+</resources>

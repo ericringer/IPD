@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_actor_or_director_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+    
+     <ListView
+        android:id="@+id/listFilms"
+        android:layout_below="@+id/txtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+     <EditText
+         android:id="@+id/txtSearch"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/listFilms"
+         android:layout_below="@+id/lblName"
+         android:layout_marginTop="16dp"
+         android:ems="10"
+         android:hint="@string/search"
+         android:inputType="textPersonName" />
+  
+</RelativeLayout>

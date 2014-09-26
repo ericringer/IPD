@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/ericringer/Desktop/SFIndieFest/.metadata/.plugins/org.eclipse.jdt.core
+1980831378.index
+3042028786.index
+2777516316.index

@@ -1,0 +1,5 @@
+package com.ericringer.sfindiefestapp.types;
+
+public class Film {
+
+}

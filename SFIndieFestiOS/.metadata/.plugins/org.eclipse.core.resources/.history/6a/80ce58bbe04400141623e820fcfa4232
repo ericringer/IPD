@@ -1,0 +1,36 @@
+package com.ericringer.sfindiefestapp.fragments;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.ericringer.sfindiefestapp.R;
+
+public class CommentsFragment extends BaseFragment {
+	public CommentsFragment() {}
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		return prepareAndSetView(inflater.inflate(R.layout.fragment_comments,container, false));
+	}
+
+	@Override
+	public void prepareLayout() {
+
+
+	}
+	
+	public String getTitle(){
+		return getString(R.string.comments);
+	}
+	
+	public static Fragment getInstance(FragmentCallback callback) {
+		CommentsFragment frag = new CommentsFragment();
+		frag.setCallback(callback);
+		return frag;
+	}
+
+}

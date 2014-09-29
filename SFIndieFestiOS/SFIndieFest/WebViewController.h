@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Film.h"
 @interface WebViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIWebView *buyWebView;
 @property (nonatomic, retain) Film* film;
+
 @end

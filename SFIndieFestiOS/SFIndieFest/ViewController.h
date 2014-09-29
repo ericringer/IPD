@@ -11,7 +11,7 @@
 
 @interface ViewController : UIViewController
 
-- (IBAction)menuButton:(id)sender;
+-(IBAction)menuButton:(id)sender;
 
 
 @end

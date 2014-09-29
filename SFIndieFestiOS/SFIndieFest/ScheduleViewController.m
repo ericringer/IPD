@@ -15,7 +15,7 @@
 @implementation ScheduleViewController
 NavDrawer * navDrawer;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -24,7 +24,7 @@ NavDrawer * navDrawer;
     return self;
 }
 
-- (void)viewDidLoad
+-(void)viewDidLoad
 {
     [super viewDidLoad];
     navDrawer = [[NavDrawer alloc] init];
@@ -34,12 +34,13 @@ NavDrawer * navDrawer;
 }
 
 
-- (IBAction)menuButton:(id)sender {
+-(IBAction)menuButton:(id)sender
+{
     [navDrawer swingDrawer];
 }
 
 
-- (void)didReceiveMemoryWarning
+-(void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

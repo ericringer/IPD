@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Film.h"
 @interface FilmDetailsViewController : UIViewController
+
 @property (nonatomic, retain) Film* film;
+@property (strong, nonatomic) IBOutlet UITextView *filmSynopsis;
+@property (strong, nonatomic) IBOutlet UILabel *dateTimeLabel;
+
 @end

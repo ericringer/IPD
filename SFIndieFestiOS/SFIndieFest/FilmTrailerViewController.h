@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Film.h"
 @interface FilmTrailerViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIWebView *trailerWebView;
 @property (nonatomic, retain) Film* film;
+
 @end

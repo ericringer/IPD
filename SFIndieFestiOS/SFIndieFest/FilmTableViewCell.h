@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FilmTableViewCell : UITableViewCell
+
 @property (strong, nonatomic) IBOutlet UILabel *filmTitle;
 @property (strong, nonatomic) IBOutlet UIImageView *filmImage;
 

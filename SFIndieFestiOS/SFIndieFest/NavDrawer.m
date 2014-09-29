@@ -2,14 +2,14 @@
 //  NavDrawer.m
 //  SFIndieFest
 //
-//  Created by Eduardo Quiroz on 9/23/14.
+//  Created by eric ringer on 9/23/14.
 //  Copyright (c) 2014 eric ringer. All rights reserved.
 //
 
 #import "NavDrawer.h"
 
 @implementation NavDrawer
-@synthesize parentView,navDrawerWidth, navDrawerX, open_recognizer, close_recognizer, menuItems,navDrawer;
+@synthesize parentView,navDrawerWidth, navDrawerX, openDrawer, closeDrawer, menuItems,navDrawer;
 
 
 
@@ -36,7 +36,8 @@
 }
 
 
--(void)createDrawer{
+-(void)createDrawer
+{
     
     int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
     navDrawerWidth = parentView.view.frame.size.width * 0.75;
@@ -45,13 +46,13 @@
     navDrawer = [[UIView alloc]initWithFrame:CGRectMake(navDrawerX, parentView.view.frame.origin.y + statusBarHeight, navDrawerWidth, parentView.view.frame.size.height - statusBarHeight)];
     navDrawer.backgroundColor = [UIColor lightGrayColor];
     
-    close_recognizer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
-    open_recognizer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
-    close_recognizer.direction = UISwipeGestureRecognizerDirectionLeft;
-    open_recognizer.direction = UISwipeGestureRecognizerDirectionRight;
+    closeDrawer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
+    openDrawer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
+    closeDrawer.direction = UISwipeGestureRecognizerDirectionLeft;
+    openDrawer.direction = UISwipeGestureRecognizerDirectionRight;
     
-    [parentView.view addGestureRecognizer:open_recognizer];
-    [parentView.view addGestureRecognizer:close_recognizer];
+    [parentView.view addGestureRecognizer:openDrawer];
+    [parentView.view addGestureRecognizer:closeDrawer];
     
     UIScrollView *theScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(3.0f, 80.0f, navDrawerWidth, navDrawer.frame.size.height)];
     [theScrollView setScrollEnabled:YES];
@@ -70,7 +71,7 @@
     
     UIImage *logo = [UIImage imageNamed:@"sfindieicon.png"];
     
-    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width)/2, orderOfButtons, logo.size.width, buttonHeight)];
+    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width), orderOfButtons, logo.size.width, buttonHeight)];
     
     [logoImageView setImage:logo];
     
@@ -108,7 +109,8 @@
 }
 
 
-- (void)drawerButton:(UIButton *)sender {
+-(void)drawerButton:(UIButton *)sender
+{
     [self swingDrawer];
     switch (sender.tag) {
         case 0:
@@ -134,7 +136,8 @@
     }
 }
 
--(void)pushVC:(NSString *) identifier{
+-(void)pushVC:(NSString *) identifier
+{
     NSString *restorationId = parentView.restorationIdentifier;
     if ([restorationId isEqualToString:identifier])return;
         

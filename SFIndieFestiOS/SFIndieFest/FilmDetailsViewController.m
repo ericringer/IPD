@@ -8,14 +8,16 @@
 
 #import "FilmDetailsViewController.h"
 #import "FilmTrailerViewController.h"
+#import "Film.h"
 #import "WebViewController.h"
 @interface FilmDetailsViewController ()
 
 @end
 
 @implementation FilmDetailsViewController
-@synthesize film;
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+@synthesize film, filmSynopsis, dateTimeLabel;
+
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -24,7 +26,7 @@
     return self;
 }
 
-- (void)viewDidLoad
+-(void)viewDidLoad
 {
     [super viewDidLoad];
     [self.navigationController.navigationBar setTitleTextAttributes:
@@ -32,9 +34,14 @@
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
     self.navigationItem.title = [film filmTitle];
+    
+    [filmSynopsis setText:[film synopsis]];
+    [dateTimeLabel setText:[film dateTime]];
 }
 
-- (void)didReceiveMemoryWarning
+
+
+-(void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -43,7 +50,7 @@
 
 #pragma mark - Navigation
 
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
  {
      if([segue.identifier isEqualToString:@"BuyTicket"]){
          WebViewController *vc = [segue destinationViewController];

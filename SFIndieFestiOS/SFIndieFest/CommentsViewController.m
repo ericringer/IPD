@@ -13,7 +13,9 @@
 @end
 
 @implementation CommentsViewController
+@synthesize txtComment,tableView;
 NavDrawer * navDrawer;
+NSMutableArray *comments;
 
 -(void)viewDidLoad
 {
@@ -22,6 +24,8 @@ NavDrawer * navDrawer;
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
+    
+    comments = [[NSMutableArray alloc]init];
     
 }
 
@@ -35,6 +39,70 @@ NavDrawer * navDrawer;
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [comments count];
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    if(cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:
+                UITableViewCellStyleDefault
+                                      reuseIdentifier:CellIdentifier];
+        [cell.textLabel setTextColor:[UIColor whiteColor]];
+    }
+    
+    NSString * comment = [comments objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = comment;
+    return cell;
+    
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+- (IBAction)btnShare:(id)sender {
+    [txtComment resignFirstResponder];
+    if([txtComment.text isEqualToString:@""]) return;
+    
+    [comments addObject:[txtComment text]];
+    [tableView reloadData];
+
+    UIActivityViewController *controller =
+    [[UIActivityViewController alloc]
+     initWithActivityItems:@[[txtComment text]]
+     applicationActivities:nil];
+    controller.excludedActivityTypes = @[UIActivityTypePostToWeibo,
+                                         UIActivityTypeMessage,
+                                         UIActivityTypeMail,
+                                         UIActivityTypePrint,
+                                         UIActivityTypeCopyToPasteboard,
+                                         UIActivityTypeAssignToContact,
+                                         UIActivityTypeSaveToCameraRoll,
+                                         UIActivityTypeAddToReadingList,
+                                         UIActivityTypePostToFlickr,
+                                         UIActivityTypePostToVimeo,
+                                         UIActivityTypePostToTencentWeibo,
+                                         UIActivityTypeAirDrop,
+                                         UIActivityTypePostToTwitter];
+    [self presentViewController:controller animated:YES completion:nil];
+    [txtComment setText:@""];
+}
 /*
 #pragma mark - Navigation
 

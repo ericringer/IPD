@@ -40,10 +40,11 @@
 {
     
     int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+    int navBarHeight = parentView.navigationController.navigationBar.frame.size.height + statusBarHeight;
     navDrawerWidth = parentView.view.frame.size.width * 0.75;
     
     navDrawerX = parentView.view.frame.origin.x - navDrawerWidth;
-    navDrawer = [[UIView alloc]initWithFrame:CGRectMake(navDrawerX, parentView.view.frame.origin.y + statusBarHeight, navDrawerWidth, parentView.view.frame.size.height - statusBarHeight)];
+    navDrawer = [[UIView alloc]initWithFrame:CGRectMake(navDrawerX, parentView.view.frame.origin.y + navBarHeight, navDrawerWidth, parentView.view.frame.size.height - navBarHeight)];
     navDrawer.backgroundColor = [UIColor lightGrayColor];
     
     closeDrawer = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(handleSwipes:)];
@@ -54,7 +55,7 @@
     [parentView.view addGestureRecognizer:openDrawer];
     [parentView.view addGestureRecognizer:closeDrawer];
     
-    UIScrollView *theScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(3.0f, 80.0f, navDrawerWidth, navDrawer.frame.size.height)];
+    UIScrollView *theScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(3.0f, 10.0f, navDrawerWidth, navDrawer.frame.size.height)];
     [theScrollView setScrollEnabled:YES];
     [theScrollView setShowsHorizontalScrollIndicator:NO];
     [theScrollView setShowsVerticalScrollIndicator:YES];
@@ -78,13 +79,16 @@
     [theScrollView addSubview:logoImageView];
     
     orderOfButtons += (buttonHeight + buttonSeparator);
-    
+
     menuItems = [[NSArray alloc]initWithObjects:@"Home", @"Films", @"Schedule", @"Search", @"Comments", @"About SF IndieFest", nil];
     for(int b=0; b<[menuItems count]; b++){
+    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(3.0f, orderOfButtons + ((    buttonHeight - 30)/ 2), 30, 30)];
+        [image setImage:[self getNavImage:b]];
+                [theScrollView addSubview:image];
         UIButton *theButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, orderOfButtons, buttonWidth, buttonHeight)];
         theButton.font = [UIFont fontWithName:@"Superclarendon" size:14];
         theButton.tag = b;
-        theButton.backgroundColor = [UIColor cyanColor];
+        //theButton.backgroundColor = [UIColor cyanColor];
         [theButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [theButton setTag:b];
         [theButton setTitle:[menuItems objectAtIndex:b] forState:UIControlStateNormal];
@@ -100,18 +104,43 @@
     
     [navDrawer addSubview:theScrollView];
     
-    [parentView.view addSubview:navDrawer];
-    
+    [parentView.navigationController.view addSubview:navDrawer];
     [parentView.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
 }
-
+-(UIImage *)getNavImage:(int)navIndex{
+    NSString * imageName;
+    switch (navIndex) {
+        case 0:
+            imageName = @"home-50";
+            break;
+        case 1:
+            imageName = @"movie-50";
+            break;
+        case 2:
+            imageName = @"calendar-50";
+            break;
+        case 3:
+            imageName = @"search-50";
+            break;
+        case 4:
+            imageName = @"quote-50";
+            break;
+        case 5:
+            imageName = @"about-50";
+            break;
+        default:
+            break;
+    }
+    return [UIImage imageNamed:imageName];
+}
 
 -(void)drawerButton:(UIButton *)sender
 {
     [self swingDrawer];
+
     switch (sender.tag) {
         case 0:
             [self pushVC:@"Home"];

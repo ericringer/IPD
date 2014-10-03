@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <EventKit/EventKit.h>
 @interface Film : NSObject
 @property (nonatomic, retain)NSString *filmTitle;
-@property (nonatomic, retain)NSString *filmImageUrl;
+@property (nonatomic, retain)NSString *filmImageName;
 @property (nonatomic, retain)NSString *dateTime;
+@property (nonatomic, retain)NSDate *convertedDate;
 @property (nonatomic, retain)NSString *synopsis;
 @property (nonatomic, retain)NSString *trailerUrl;
 @property (nonatomic, retain)NSString *filmUid;
+@property (nonatomic, retain)EKReminder *reminder;
 
 -(NSString *)getPurchaseUrl;
 +(NSArray *)getStaticFilms;

@@ -15,7 +15,7 @@
 @end
 
 @implementation FilmDetailsViewController
-@synthesize film, filmSynopsis, dateTimeLabel;
+@synthesize film, filmSynopsis, dateTimeLabel, filmImage;
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +37,7 @@
     
     [filmSynopsis setText:[film synopsis]];
     [dateTimeLabel setText:[film dateTime]];
+    [filmImage setImage:[UIImage imageNamed:[film filmImageName]]];
 }
 
 

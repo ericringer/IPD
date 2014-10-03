@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScheduleViewController : UIViewController
+@interface ScheduleViewController : UITableViewController
 
 -(IBAction)menuButton:(id)sender;
 

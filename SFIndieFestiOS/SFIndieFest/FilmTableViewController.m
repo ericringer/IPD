@@ -76,9 +76,9 @@ NSArray * films;
         [cell.textLabel setTextColor:[UIColor whiteColor]];
     }
     
-    Film * obj = [films objectAtIndex:indexPath.row];
-    cell.filmTitle.text = [obj filmTitle];
-    [[cell filmImage] setImage:[UIImage imageNamed:@"sfindieicon"]];
+    Film * film = [films objectAtIndex:indexPath.row];
+    cell.filmTitle.text = [film filmTitle];
+    [[cell filmImage] setImage:[UIImage imageNamed:[film filmImageName]]];
     
     return cell;
     

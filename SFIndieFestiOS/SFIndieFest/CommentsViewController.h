@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CommentsViewController : UIViewController
+@interface CommentsViewController : UIViewController<UITableViewDataSource,UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITextField *txtComment;
 
 -(IBAction)menuButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

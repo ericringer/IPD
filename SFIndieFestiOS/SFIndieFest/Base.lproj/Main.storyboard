@@ -429,7 +429,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="holehead2013.png" translatesAutoresizingMaskIntoConstraints="NO" id="baj-W3-QJm">
-                                <rect key="frame" x="9" y="134" width="302" height="300"/>
+                                <rect key="frame" x="9" y="80" width="302" height="468"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>

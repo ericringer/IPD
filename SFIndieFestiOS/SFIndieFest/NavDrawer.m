@@ -72,7 +72,7 @@
     
     UIImage *logo = [UIImage imageNamed:@"sfindieicon.png"];
     
-    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width), orderOfButtons, logo.size.width, buttonHeight)];
+    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width), orderOfButtons, logo.size.width, buttonHeight + 15)];
     
     [logoImageView setImage:logo];
     

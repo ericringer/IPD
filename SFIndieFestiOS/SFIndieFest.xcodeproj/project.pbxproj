@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531D7F9319E5CA2200FF9AB7 /* indiefest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531D7F9219E5CA2200FF9AB7 /* indiefest.jpg */; };
+		531D7F9519E5CA2B00FF9AB7 /* docfest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531D7F9419E5CA2B00FF9AB7 /* docfest.jpg */; };
+		531D7F9719E5CA3200FF9AB7 /* rollerdisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 531D7F9619E5CA3100FF9AB7 /* rollerdisco.jpg */; };
 		537BFE7419C8B53000286610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7319C8B53000286610 /* Foundation.framework */; };
 		537BFE7619C8B53000286610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7519C8B53000286610 /* CoreGraphics.framework */; };
 		537BFE7819C8B53000286610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7719C8B53000286610 /* UIKit.framework */; };
@@ -66,6 +69,12 @@
 		57A4CFAB19D3CB6E00C6DFFF /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A4CFAA19D3CB6E00C6DFFF /* Film.m */; };
 		57FF600F19DD0E0000F869B7 /* ScheduleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF600E19DD0E0000F869B7 /* ScheduleViewCell.m */; };
 		57FF601119DD151000F869B7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF601019DD151000F869B7 /* EventKit.framework */; };
+		57FF601419DE63C900F869B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF601319DE63C800F869B7 /* MapKit.framework */; };
+		57FF601619DE645C00F869B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF601519DE645C00F869B7 /* CoreLocation.framework */; };
+		57FF602E19E39EBC00F869B7 /* NameSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF602D19E39EBC00F869B7 /* NameSearchResult.m */; };
+		57FF603119E39F0700F869B7 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF603019E39F0700F869B7 /* Data.m */; };
+		57FF603419E39FB500F869B7 /* KnownFor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF603319E39FB500F869B7 /* KnownFor.m */; };
+		57FF603719E3A14000F869B7 /* NameSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF603619E3A14000F869B7 /* NameSearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +88,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531D7F9219E5CA2200FF9AB7 /* indiefest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indiefest.jpg; sourceTree = "<group>"; };
+		531D7F9419E5CA2B00FF9AB7 /* docfest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = docfest.jpg; sourceTree = "<group>"; };
+		531D7F9619E5CA3100FF9AB7 /* rollerdisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rollerdisco.jpg; sourceTree = "<group>"; };
 		537BFE7019C8B53000286610 /* SFIndieFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFIndieFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BFE7319C8B53000286610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		537BFE7519C8B53000286610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +168,16 @@
 		57FF600D19DD0E0000F869B7 /* ScheduleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewCell.h; sourceTree = "<group>"; };
 		57FF600E19DD0E0000F869B7 /* ScheduleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewCell.m; sourceTree = "<group>"; };
 		57FF601019DD151000F869B7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		57FF601319DE63C800F869B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		57FF601519DE645C00F869B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57FF602C19E39EBC00F869B7 /* NameSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameSearchResult.h; sourceTree = "<group>"; };
+		57FF602D19E39EBC00F869B7 /* NameSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameSearchResult.m; sourceTree = "<group>"; };
+		57FF602F19E39F0700F869B7 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		57FF603019E39F0700F869B7 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		57FF603219E39FB500F869B7 /* KnownFor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnownFor.h; sourceTree = "<group>"; };
+		57FF603319E39FB500F869B7 /* KnownFor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnownFor.m; sourceTree = "<group>"; };
+		57FF603519E3A14000F869B7 /* NameSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameSearch.h; sourceTree = "<group>"; };
+		57FF603619E3A14000F869B7 /* NameSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameSearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +185,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FF601619DE645C00F869B7 /* CoreLocation.framework in Frameworks */,
+				57FF601419DE63C900F869B7 /* MapKit.framework in Frameworks */,
 				57FF601119DD151000F869B7 /* EventKit.framework in Frameworks */,
 				537BFE7619C8B53000286610 /* CoreGraphics.framework in Frameworks */,
 				537BFE7819C8B53000286610 /* UIKit.framework in Frameworks */,
@@ -205,6 +229,8 @@
 		537BFE7219C8B53000286610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57FF601519DE645C00F869B7 /* CoreLocation.framework */,
+				57FF601319DE63C800F869B7 /* MapKit.framework */,
 				57FF601019DD151000F869B7 /* EventKit.framework */,
 				537BFE7319C8B53000286610 /* Foundation.framework */,
 				537BFE7519C8B53000286610 /* CoreGraphics.framework */,
@@ -251,6 +277,14 @@
 				57A4CFA719D29B0300C6DFFF /* NavDrawer.m */,
 				57FF600D19DD0E0000F869B7 /* ScheduleViewCell.h */,
 				57FF600E19DD0E0000F869B7 /* ScheduleViewCell.m */,
+				57FF602C19E39EBC00F869B7 /* NameSearchResult.h */,
+				57FF602D19E39EBC00F869B7 /* NameSearchResult.m */,
+				57FF602F19E39F0700F869B7 /* Data.h */,
+				57FF603019E39F0700F869B7 /* Data.m */,
+				57FF603219E39FB500F869B7 /* KnownFor.h */,
+				57FF603319E39FB500F869B7 /* KnownFor.m */,
+				57FF603519E3A14000F869B7 /* NameSearch.h */,
+				57FF603619E3A14000F869B7 /* NameSearch.m */,
 			);
 			path = SFIndieFest;
 			sourceTree = "<group>";
@@ -287,6 +321,9 @@
 		537BFEDC19D1431E00286610 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				531D7F9619E5CA3100FF9AB7 /* rollerdisco.jpg */,
+				531D7F9419E5CA2B00FF9AB7 /* docfest.jpg */,
+				531D7F9219E5CA2200FF9AB7 /* indiefest.jpg */,
 				574B7DF119DA7718006D7AD1 /* at.png */,
 				574B7DF219DA7718006D7AD1 /* bw.png */,
 				574B7DF319DA7718006D7AD1 /* cd.png */,
@@ -400,6 +437,7 @@
 			files = (
 				574B7E0E19DA7718006D7AD1 /* house.png in Resources */,
 				574B7E1019DA7718006D7AD1 /* malignant.png in Resources */,
+				531D7F9319E5CA2200FF9AB7 /* indiefest.jpg in Resources */,
 				574B7E0A19DA7718006D7AD1 /* dp.png in Resources */,
 				574B7E0B19DA7718006D7AD1 /* dust.png in Resources */,
 				574B7E1819DA7719006D7AD1 /* acd.png in Resources */,
@@ -411,10 +449,12 @@
 				574B7E0519DA7718006D7AD1 /* at.png in Resources */,
 				574B7E1419DA7719006D7AD1 /* pinup.png in Resources */,
 				574B7E0C19DA7718006D7AD1 /* ef.png in Resources */,
+				531D7F9519E5CA2B00FF9AB7 /* docfest.jpg in Resources */,
 				537BFEB919CB8C4F00286610 /* menu-50.png in Resources */,
 				537BFED019CB927900286610 /* sfindieicon.png in Resources */,
 				574B7E0619DA7718006D7AD1 /* bw.png in Resources */,
 				537BFED819D1414500286610 /* share-48.png in Resources */,
+				531D7F9719E5CA3200FF9AB7 /* rollerdisco.jpg in Resources */,
 				537BFE7E19C8B53000286610 /* InfoPlist.strings in Resources */,
 				574B7E1119DA7718006D7AD1 /* mg.png in Resources */,
 				574B7E0919DA7718006D7AD1 /* ct.png in Resources */,
@@ -458,6 +498,7 @@
 				57FF600F19DD0E0000F869B7 /* ScheduleViewCell.m in Sources */,
 				537BFE8419C8B53000286610 /* AppDelegate.m in Sources */,
 				537BFE8019C8B53000286610 /* main.m in Sources */,
+				57FF603419E39FB500F869B7 /* KnownFor.m in Sources */,
 				537BFEDB19D1430800286610 /* WebViewController.m in Sources */,
 				537BFEBC19CB8D3600286610 /* FilmTableViewController.m in Sources */,
 				537BFECB19CB8DFB00286610 /* CommentsViewController.m in Sources */,
@@ -465,7 +506,10 @@
 				57A4CFA819D29B0300C6DFFF /* NavDrawer.m in Sources */,
 				537BFEC519CB8DD200286610 /* ScheduleViewController.m in Sources */,
 				537BFEC819CB8DEB00286610 /* SearchViewController.m in Sources */,
+				57FF602E19E39EBC00F869B7 /* NameSearchResult.m in Sources */,
 				537BFEC219CB8D8900286610 /* FilmDetailsViewController.m in Sources */,
+				57FF603719E3A14000F869B7 /* NameSearch.m in Sources */,
+				57FF603119E39F0700F869B7 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

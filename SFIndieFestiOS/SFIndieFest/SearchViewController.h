@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NameSearch.h"
+#import "NameSearchResult.h"
 
-@interface SearchViewController : UIViewController
+@interface SearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 -(IBAction)menuButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *txtSearch;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

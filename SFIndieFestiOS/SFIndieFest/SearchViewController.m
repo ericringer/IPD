@@ -13,9 +13,9 @@
 @end
 
 @implementation SearchViewController
-
+@synthesize txtSearch,tableView;
 NavDrawer * navDrawer;
-
+NameSearchResult * searchResult;
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -30,7 +30,8 @@ NavDrawer * navDrawer;
     [super viewDidLoad];
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
-    [navDrawer createDrawer];;
+    [navDrawer createDrawer];
+    searchResult = [[NameSearchResult alloc] init];
     
 }
 
@@ -40,12 +41,57 @@ NavDrawer * navDrawer;
     [navDrawer swingDrawer];
 }
 
+- (IBAction)btnSearch:(id)sender {
+    [txtSearch resignFirstResponder];
+    NameSearch * search = [[NameSearch alloc] init];
+    [search performSearch:[txtSearch text] ViewController:self ResultBlock:^(NameSearchResult * result) {
+        searchResult = nil;
+        searchResult = result;
+        [tableView reloadData];
+      }];
+}
 
-
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 -(void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return searchResult.data.knownFor.count;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    if(cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:
+                UITableViewCellStyleDefault
+                                        reuseIdentifier:CellIdentifier];
+        
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    }
+    NSArray * array = [[searchResult data] knownFor];
+    KnownFor * knownFor = [array objectAtIndex:indexPath.row];
+    [[cell textLabel] setText:[knownFor title]];
+    
+    return cell;
+    
 }
 
 /*

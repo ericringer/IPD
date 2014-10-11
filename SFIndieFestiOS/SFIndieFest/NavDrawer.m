@@ -7,7 +7,6 @@
 //
 
 #import "NavDrawer.h"
-
 @implementation NavDrawer
 @synthesize parentView,navDrawerWidth, navDrawerX, openDrawer, closeDrawer, menuItems,navDrawer;
 
@@ -72,7 +71,7 @@
     
     UIImage *logo = [UIImage imageNamed:@"sfindieicon.png"];
     
-    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width), orderOfButtons, logo.size.width, buttonHeight + 15)];
+    UIImageView *logoImageView = [[UIImageView alloc] initWithFrame:CGRectMake((buttonWidth - logo.size.width), orderOfButtons, logo.size.width, buttonHeight)];
     
     [logoImageView setImage:logo];
     
@@ -139,6 +138,7 @@
 
 -(void)drawerButton:(UIButton *)sender
 {
+    
     [self swingDrawer];
 
     switch (sender.tag) {

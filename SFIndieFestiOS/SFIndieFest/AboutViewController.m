@@ -13,7 +13,7 @@
 @end
 
 @implementation AboutViewController
-
+@synthesize lblAbout,comingSoonImageView;
 NavDrawer * navDrawer;
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -31,7 +31,19 @@ NavDrawer * navDrawer;
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
+    lblAbout.layer.borderColor = [UIColor blackColor].CGColor;
+    lblAbout.layer.borderWidth = 1.0;
     
+    NSArray * comingSoonImages = [NSArray arrayWithObjects:
+				[UIImage imageNamed:@"indiefest.jpg"],
+				[UIImage imageNamed:@"docfest.jpg"],
+				[UIImage imageNamed:@"rollerdisco.jpg"],nil];
+	
+	comingSoonImageView.animationImages = comingSoonImages;
+	comingSoonImageView.animationDuration = 15;
+	comingSoonImageView.animationRepeatCount = 0;
+	[comingSoonImageView startAnimating];
+	
 }
 
 -(IBAction)menuButton:(id)sender {

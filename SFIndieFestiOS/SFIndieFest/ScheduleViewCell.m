@@ -20,7 +20,7 @@ BOOL didGrant;
     return self;
 }
 - (IBAction)btnReminder:(id)sender {
-    NSLog(@"%@ %@ Switched: %hhd",[film filmTitle],[film convertedDate],[scheduleSwitch isOn]);
+    NSLog(@"%@ %@ Siwtched: %hhd",[film filmTitle],[film convertedDate],[scheduleSwitch isOn]);
     if([scheduleSwitch isOn]){
         [self addReminder];
     }else{

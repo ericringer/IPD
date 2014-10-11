@@ -63,6 +63,7 @@ NSMutableArray *comments;
                 UITableViewCellStyleDefault
                                       reuseIdentifier:CellIdentifier];
         [cell.textLabel setTextColor:[UIColor whiteColor]];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     
     NSString * comment = [comments objectAtIndex:indexPath.row];

@@ -10,6 +10,8 @@
 
 @interface AboutViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblAbout;
 -(IBAction)menuButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *comingSoonImageView;
 
 @end

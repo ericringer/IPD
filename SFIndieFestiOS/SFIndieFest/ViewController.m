@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-NavDrawer * navDrawer;
+NavDrawer *navDrawer;
 
 -(void)viewDidLoad
 {

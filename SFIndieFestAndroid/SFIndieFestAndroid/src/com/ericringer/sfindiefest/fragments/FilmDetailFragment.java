@@ -1,12 +1,16 @@
 package com.ericringer.sfindiefest.fragments;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +19,7 @@ import com.ericringer.sfindiefest.FilmLocationActivity;
 import com.ericringer.sfindiefest.FilmTrailerActivity;
 import com.ericringer.sfindiefest.R;
 import com.ericringer.sfindiefest.types.Film;
+import com.parse.ParseObject;
 
 public class FilmDetailFragment extends BaseFragment {
 	private Film mFilm;
@@ -55,7 +60,44 @@ public class FilmDetailFragment extends BaseFragment {
 				i.putExtra(Film.FILM, mFilm);
 				startActivity(i);
 			}});
+		findViewById(R.id.btnTheaterMap).setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(getApplicationContext(),FilmLocationActivity.class);
+				i.putExtra(Film.FILM, mFilm);
+				startActivity(i);
+			}});
+		findViewById(R.id.btnPostComment).setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				postCommentDialog();
+			}});
 	}
+	protected void postCommentDialog() {
+		final EditText txtComment = new EditText(getActivity());
+		txtComment.setHint("Comment");
+		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+		builder.setTitle("Enter Comment");
+		builder.setView(txtComment);
+		builder.setPositiveButton("Share", new AlertDialog.OnClickListener(){
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				if(TextUtils.isEmpty(txtComment.getText()))return;
+				
+				postComment(txtComment.getText().toString());
+			}});
+		builder.setNegativeButton("OK", null);
+		builder.create().show();
+	}
+
+	protected void postComment(String comment) {
+		ParseObject gameScore = new ParseObject("filmComments");
+		gameScore.put("filmTitle", mFilm.getFilmTitle());
+		gameScore.put("filmComment", comment);
+		gameScore.saveInBackground();
+	}
+
 	public String getTitle(){
 		if(mFilm == null)return "";
 		return mFilm.getFilmTitle();

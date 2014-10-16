@@ -10,21 +10,20 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.ericringer.sfindiefest.R;
+import com.parse.ParseObject;
 
-public class SimpleAdapter extends ArrayAdapter<String> {
+public class ParseCommentAdapter extends ArrayAdapter<ParseObject> {
 
-	/**
-	 * The Class ViewHolder.
-	 */
 	public static class ViewHolder{
+		TextView txtTitle;
 		TextView txtComment;
-
 	}
-	private List<String> items;
+	
+	private List<ParseObject> items;
 	private Context mContext;
 	private LayoutInflater inflater;
 
-	public SimpleAdapter(Context context, List<String> objects) {
+	public ParseCommentAdapter(Context context, List<ParseObject> objects) {
 		super(context, R.layout.row_comment, objects);
 		items = objects;
 		mContext = context;
@@ -37,11 +36,15 @@ public class SimpleAdapter extends ArrayAdapter<String> {
 		if(rowView == null){
 			rowView= inflater.inflate(R.layout.row_comment, parent, false);
 			ViewHolder h = new ViewHolder();
+			h.txtTitle=(TextView)rowView.findViewById(R.id.txtTitle);
 			h.txtComment=(TextView)rowView.findViewById(R.id.txtComment);
 			rowView.setTag(h);
 		}
 		ViewHolder holder = (ViewHolder)rowView.getTag();
-		holder.txtComment.setText(items.get(position));
+		
+		ParseObject comment = items.get(position);
+		holder.txtTitle.setText(comment.getString("filmTitle"));
+		holder.txtComment.setText(comment.getString("filmComment"));
 		return rowView;
 
 

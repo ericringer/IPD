@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager.OnBackStackChangedListener;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,6 +32,7 @@ public class MainActivity extends FragmentActivity {
 	private ActionBarDrawerToggle mDrawerToggle;
 	public static View previousView;
 	FragmentCallback callback;
+	private boolean backPressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,6 @@ public class MainActivity extends FragmentActivity {
     	setContentView(R.layout.activity_main);
 		prepareActivity();
     }
-
 
 	private void prepareActivity() {
     	prepareDrawer();
@@ -56,10 +57,19 @@ public class MainActivity extends FragmentActivity {
 				trans.addToBackStack("fragSFIF");
 				trans.commit();
 			}};
-			
-			if(!didCreate)callback.switchFragment(HomeFragment.getInstance(callback));
-			didCreate = true;
 	}
+
+	@Override
+	protected void onResume() {
+    	Log.d("onBack", "Count: " + getSupportFragmentManager().getBackStackEntryCount() );
+    	backPressed = false;
+    	if(getSupportFragmentManager().getBackStackEntryCount() <=0){
+			callback.switchFragment(HomeFragment.getInstance(callback));
+		}
+		super.onResume();
+	}
+
+
 
     public boolean onOptionsItemSelected(MenuItem item){
     	if (mDrawerToggle.onOptionsItemSelected(item)) {
@@ -94,7 +104,11 @@ public class MainActivity extends FragmentActivity {
     		@Override
     		public void onBackStackChanged() {
     			if(getSupportFragmentManager().getBackStackEntryCount() <=0){
-    				callback.switchFragment(HomeFragment.getInstance(callback));
+    				if(backPressed){
+    		    		MainActivity.super.onBackPressed();
+    		    		}else{
+    		    			callback.switchFragment(HomeFragment.getInstance(callback));
+    		    		}
     			}
     			
     		}});
@@ -191,10 +205,12 @@ public class MainActivity extends FragmentActivity {
 	    @Override
 	    public void onBackPressed()
 	    {
-	    	if(getSupportFragmentManager().getBackStackEntryCount() > 0){
-	    		getSupportFragmentManager().popBackStack();
-	    	}else{
+	    	Log.d("onBack", "Count: " + getSupportFragmentManager().getBackStackEntryCount() );
+	    	if(getSupportFragmentManager().getBackStackEntryCount() <=1){
+	    		backPressed = true;
 	    		super.onBackPressed();
+	    	}else{
+	    		getSupportFragmentManager().popBackStack();
 	    	}
 	    	
 	    }

@@ -1,0 +1,25 @@
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingBottom="10dp"
+     android:background="@color/white"
+     android:orientation="vertical">
+    
+     <Button
+         android:id="@+id/btnDirections"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         android:text="@string/directions" />
+    <fragment
+        android:id="@+id/theaterMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_above="@+id/btnDirections"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+
+</RelativeLayout>
+

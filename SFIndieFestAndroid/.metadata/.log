@@ -252,3 +252,2171 @@ Binding(CTRL+SHIFT+ARROW_LEFT,
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-10-10 19:29:01.360
 !MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.823
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.921
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.923
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.924
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_primary_text_holo_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.926
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_secondary_text_holo_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.966
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.967
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.968
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:22.969
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.035
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.037
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.041
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.042
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.043
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.044
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.045
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.046
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.047
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.048
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.049
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.050
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.050
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.051
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.052
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.052
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.053
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.053
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.054
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.055
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.056
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.056
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.057
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.058
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.058
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.059
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.060
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.060
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.061
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.061
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.062
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.063
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.064
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.064
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.065
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.066
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.066
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.067
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.068
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.069
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.070
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.071
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.071
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.072
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.073
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.074
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.074
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.075
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.076
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.076
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.077
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.078
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.078
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.079
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.079
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.080
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.081
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.081
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.082
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.083
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.084
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.135
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.137
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.142
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.144
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.145
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.147
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.148
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.149
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.150
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.151
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.152
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.153
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.153
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.154
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.155
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.155
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.156
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.157
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.158
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.159
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.159
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.177
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.178
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.179
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.180
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.180
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.268
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/src/android/UnusedStub.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.271
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:23.294
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/R.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.667
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.668
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.669
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.670
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.671
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.671
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.671
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.672
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.672
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.673
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.673
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.674
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.674
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.675
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.675
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.676
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.676
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.677
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.677
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.678
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.678
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.679
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.679
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.680
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.681
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.681
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.682
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.682
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.683
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.683
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.684
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.684
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.685
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.685
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.686
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.687
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.687
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.688
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.688
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.689
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.689
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.690
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.690
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.691
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.692
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.692
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.693
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.693
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.694
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.694
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.695
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.695
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.696
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.696
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.721
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.723
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.724
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.725
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.726
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.727
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.728
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.728
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.729
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.730
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.731
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.731
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.732
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.733
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.733
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.734
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.734
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.735
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.735
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.736
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.736
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.737
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.737
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.738
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.738
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.739
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.739
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.746
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.747
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.748
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.748
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.749
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 09:27:27.749
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 10:14:48.162
+!MESSAGE Exception in checkAndLoadTargetData.
+!STACK 0
+java.lang.UnsupportedClassVersionError: Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:471)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.defineAndCacheClass(AndroidJarLoader.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.findClass(AndroidJarLoader.java:312)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.collectPermissions(AndroidTargetParser.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.run(AndroidTargetParser.java:107)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:712)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 10:14:48.219
+!MESSAGE Parsing Data for android-L failed
+!STACK 0
+java.lang.UnsupportedClassVersionError: Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:471)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.defineAndCacheClass(AndroidJarLoader.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.findClass(AndroidJarLoader.java:312)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.collectPermissions(AndroidTargetParser.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.run(AndroidTargetParser.java:107)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:712)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 12:44:43.011
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 12:44:43.011
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 12:44:43.038
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 12:44:43.038
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 12:44:43.078
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 12:44:43.078
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.659
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.794
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.795
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.816
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_primary_text_holo_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.838
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_secondary_text_holo_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.841
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.843
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.849
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:43.861
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.282
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.283
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.307
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.330
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.356
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.384
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.408
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.409
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.436
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.453
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.483
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.484
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.507
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.536
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.566
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.643
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.655
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.664
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.672
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.673
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.751
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.752
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.790
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.804
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.805
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.831
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.858
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.891
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.918
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.919
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.964
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:44.980
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.015
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.042
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.064
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.092
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.093
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.094
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.153
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.162
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.207
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.208
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.230
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.231
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.264
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.265
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.287
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.288
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.310
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.312
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.332
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.336
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.337
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.338
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.356
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.385
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.411
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.443
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.460
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.486
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.511
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.551
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.577
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.599
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.602
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.635
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.670
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.708
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.709
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.735
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.736
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.737
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.738
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.739
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.740
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.741
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.741
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.742
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.743
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.744
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.744
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.745
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.816
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.849
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.854
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.896
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:45.913
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:46.030
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/src/android/UnusedStub.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:46.049
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:46.095
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/R.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.887
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.907
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.922
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.936
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.937
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.972
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.997
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.997
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.998
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:50.999
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.021
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.022
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.040
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.071
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.095
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.096
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.118
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.119
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.143
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.205
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.231
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.267
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.302
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.327
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.351
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.372
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.399
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.426
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.427
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.428
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.428
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.429
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.430
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.431
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.431
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.432
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.433
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.433
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.434
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.435
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.435
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.436
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.437
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.437
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.455
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.456
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.472
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.472
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.504
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.531
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.550
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.551
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.552
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.552
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.553
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.554
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.555
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.555
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.556
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.556
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.574
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.575
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.576
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.576
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.577
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.578
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.578
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.579
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.580
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.580
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.581
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.582
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.582
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.597
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.642
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.663
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.686
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.687
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.688
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.689
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.690
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.690
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.691
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.692
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.692
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.693
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 12:46:51.709
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 13:08:07.343
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 13:08:07.343
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 13:08:07.364
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 13:08:07.364
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-11 13:08:07.364
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-11 13:08:07.365
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.622
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.714
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.716
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.717
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_primary_text_holo_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.717
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/color/wallet_secondary_text_holo_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.718
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.719
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.720
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.721
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.854
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.855
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.855
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.856
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.856
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.857
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.858
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.858
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.859
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.859
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.859
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.860
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.860
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.861
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.861
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.862
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.862
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.863
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.863
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.864
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.879
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.880
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.881
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.882
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.882
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.882
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.883
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.883
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.884
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.884
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.885
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.886
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.886
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.886
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.887
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.887
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.888
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.888
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.889
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.889
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.890
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.891
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.891
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.892
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.893
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.893
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.894
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.894
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.895
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.895
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.895
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.896
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.897
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.897
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.898
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.898
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.899
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.899
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.900
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.900
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.901
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.935
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.936
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.938
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.973
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.974
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.975
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.976
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.977
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.978
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.979
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.980
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.980
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.981
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.982
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.983
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.983
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.984
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.984
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.985
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.985
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:07.986
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.011
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.013
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.014
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.015
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.015
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/.classpath in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.089
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/src/android/UnusedStub.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.091
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:08.118
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/gen/com/google/android/gms/R.java in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.962
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/AndroidManifest.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.963
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_ads_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.966
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_iap_style.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.967
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/admob_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.969
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.970
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.971
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/maps_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.972
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/version.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.972
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_attrs.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.972
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_colors.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.974
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.975
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values/wallet_styles.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.977
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-af/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.980
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-am/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.981
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ar/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.982
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-be/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.984
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bg/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.985
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-bn-rBD/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.986
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ca/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.988
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-cs/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.988
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-da/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.989
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-de/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.992
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-el/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.993
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rGB/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.994
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-en-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.996
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.997
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es/wallet_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:10.998
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-es-rUS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.002
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-et-rEE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.005
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-eu-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.005
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fa/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.006
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.007
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.009
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-fr-rCA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.016
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-gl-rES/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.017
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.024
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.025
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hu/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.051
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-hy-rAM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.052
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-in/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.062
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-is-rIS/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.063
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-it/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.065
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-iw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.066
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ja/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.067
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ka-rGE/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.068
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kk-rKZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.069
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-km-rKH/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.091
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-kn-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.092
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ko/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.114
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ky-rKG/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.115
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lo-rLA/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.128
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.129
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-lv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.131
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mk-rMK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.131
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ml-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.155
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mn-rMN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.155
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-mr-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.155
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ms-rMY/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.157
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-my-rMM/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.159
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nb/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.160
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ne-rNP/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.161
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-nl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.164
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.165
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.166
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rBR/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.168
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-pt-rPT/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.169
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ro/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.170
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ru/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.172
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-si-rLK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.172
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.186
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.197
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.198
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sv/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.224
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-sw/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.225
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ta-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.246
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-te-rIN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.247
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-th/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.271
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tl/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.271
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-tr/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.295
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uk/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.295
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-ur-rPK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.307
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-uz-rUZ/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.308
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-vi/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.309
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rCN/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.311
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rHK/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.311
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zh-rTW/common_strings.xml in workspace
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-11 13:09:11.334
+!MESSAGE Can't find file /Users/ericringer/Desktop/SFIndieFest/google-play-services_lib/res/values-zu/common_strings.xml in workspace
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:09:38.201
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:09:38.257
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:09:38.284
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:09:38.284
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:09:38.309
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:09:38.309
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:35:19.221
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:35:19.314
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:35:19.373
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:35:19.373
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-12 11:35:19.407
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-12 11:35:19.407
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-15 22:29:55.107
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/SFIndieFest/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-10-15 22:29:55.194
+!MESSAGE Resource '/SFIndieFest/res' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:29:55.209
+!MESSAGE Exception occurred while saving project preferences: /SFIndieFest/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:29:55.209
+!MESSAGE A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:29:55.210
+!MESSAGE Exception occurred while saving project preferences: /SFIndieFest/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:29:55.210
+!MESSAGE A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:29:55.211
+!MESSAGE Exception occurred while saving project preferences: /SFIndieFest/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:29:55.211
+!MESSAGE A resource already exists on disk '/Users/ericringer/Downloads/SFIndieFestAndroid-3/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:31:25.555
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:31:25.556
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:31:25.572
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:31:25.572
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-10-15 22:31:25.573
+!MESSAGE Exception occurred while saving project preferences: /google-play-services_lib/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-10-15 22:31:25.573
+!MESSAGE A resource already exists on disk '/Users/ericringer/Desktop/adt-bundle-mac-x86_64-20140702/sdk/extras/google/google_play_services/libproject/google-play-services_lib/.settings'.

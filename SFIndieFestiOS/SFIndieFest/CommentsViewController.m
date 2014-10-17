@@ -8,14 +8,16 @@
 
 #import "CommentsViewController.h"
 #import "NavDrawer.h"
+#import <Parse/Parse.h>
 @interface CommentsViewController ()
 
 @end
 
 @implementation CommentsViewController
-@synthesize txtComment,tableView;
+@synthesize tableView;
 NavDrawer * navDrawer;
-NSMutableArray *comments;
+NSArray *comments;
+PFObject * selectedItem;
 
 -(void)viewDidLoad
 {
@@ -25,10 +27,22 @@ NSMutableArray *comments;
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
     
-    comments = [[NSMutableArray alloc]init];
+    comments = [[NSArray alloc]init];
     
 }
+-(void)viewDidAppear:(BOOL)animated{
+        PFQuery *query = [PFQuery queryWithClassName:@"filmComments"];
+        [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+            if (!error) {
+                comments = objects;
+                [tableView reloadData];
+            } else {
+                // Log details of the failure
+                NSLog(@"Error: %@ %@", error, [error userInfo]);
+            }
+        }];
 
+}
 -(IBAction)menuButton:(id)sender {
     [navDrawer swingDrawer];
 }
@@ -60,15 +74,16 @@ NSMutableArray *comments;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     if(cell == nil){
         cell = [[UITableViewCell alloc] initWithStyle:
-                UITableViewCellStyleDefault
+                UITableViewCellStyleSubtitle
                                       reuseIdentifier:CellIdentifier];
         [cell.textLabel setTextColor:[UIColor whiteColor]];
         [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     
-    NSString * comment = [comments objectAtIndex:indexPath.row];
+    PFObject * comment = [comments objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = comment;
+    cell.textLabel.text = [comment valueForKey:@"filmTitle"];
+    cell.detailTextLabel.text = [comment valueForKey:@"filmComment"];
     return cell;
     
 }
@@ -77,16 +92,30 @@ NSMutableArray *comments;
     [textField resignFirstResponder];
     return YES;
 }
-- (IBAction)btnShare:(id)sender {
-    [txtComment resignFirstResponder];
-    if([txtComment.text isEqualToString:@""]) return;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    selectedItem = [comments objectAtIndex:indexPath.row];
     
-    [comments addObject:[txtComment text]];
-    [tableView reloadData];
+    UIAlertView *messageAlert = [[UIAlertView alloc]
+                                 initWithTitle:[selectedItem objectForKey:@"filmTitle"] message:[selectedItem objectForKey:@"filmComment"] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Share",nil];
+    
+    [messageAlert show];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
+    
+}
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        [self shareComment:[selectedItem objectForKey:@"filmTitle"] Comment:[selectedItem objectForKey:@"filmComment"]];
+    }
+    selectedItem = nil;
+}
+
+- (void)shareComment:(NSString *)filmTitle Comment:(NSString *)comment {
     UIActivityViewController *controller =
     [[UIActivityViewController alloc]
-     initWithActivityItems:@[[txtComment text]]
+     initWithActivityItems:@[filmTitle,comment]
      applicationActivities:nil];
     controller.excludedActivityTypes = @[UIActivityTypePostToWeibo,
                                          UIActivityTypeMessage,
@@ -102,8 +131,8 @@ NSMutableArray *comments;
                                          UIActivityTypeAirDrop,
                                          UIActivityTypePostToTwitter];
     [self presentViewController:controller animated:YES completion:nil];
-    [txtComment setText:@""];
 }
+
 /*
 #pragma mark - Navigation
 

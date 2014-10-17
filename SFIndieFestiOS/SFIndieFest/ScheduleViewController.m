@@ -16,12 +16,13 @@
 @end
 
 @implementation ScheduleViewController
+@synthesize tableView;
 NavDrawer * navDrawer;
 NSArray * films;
 EKEventStore *eventStore;
-- (id)initWithStyle:(UITableViewStyle)style
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithStyle:style];
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
     }
@@ -70,7 +71,7 @@ EKEventStore *eventStore;
             Film * film = [films objectAtIndex:i];
             [film setReminder:reminder];
         }
-        [self.tableView reloadData];
+        [tableView reloadData];
     }];
     
 
@@ -127,11 +128,23 @@ EKEventStore *eventStore;
     [cell setEventStore:eventStore];
     [[cell scheduleText] setText:[film filmTitle]];
     [[cell filmTime] setText:[film dateTime]];
+    [[cell scheduleSwitch] setOn:NO];
     if([film reminder] !=nil)[[cell scheduleSwitch] setOn:YES];
     return cell;
     
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
 
+    ScheduleViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    BOOL isSet = [cell.scheduleSwitch isOn];
+    [cell.scheduleSwitch setOn:!isSet animated:YES];
+   [cell btnReminder:self];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+}
 -(IBAction)menuButton:(id)sender {
     [navDrawer swingDrawer];
 }

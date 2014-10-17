@@ -8,6 +8,7 @@
 
 #import "FilmDetailsViewController.h"
 #import "FilmTrailerViewController.h"
+#import "PostCommentViewController.h"
 #import "Film.h"
 #import "WebViewController.h"
 @interface FilmDetailsViewController ()
@@ -59,6 +60,10 @@
      }
      if([segue.identifier isEqualToString:@"Trailer"]){
          FilmTrailerViewController *vc = [segue destinationViewController];
+         [vc setFilm:film];
+     }
+     if([segue.identifier isEqualToString:@"PostComment"]){
+         PostCommentViewController *vc = [segue destinationViewController];
          [vc setFilm:film];
      }
  }

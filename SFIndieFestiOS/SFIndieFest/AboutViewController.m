@@ -35,9 +35,9 @@ NavDrawer * navDrawer;
     lblAbout.layer.borderWidth = 1.0;
     
     NSArray * comingSoonImages = [NSArray arrayWithObjects:
-				[UIImage imageNamed:@"indiefest.jpg"],
-				[UIImage imageNamed:@"docfest.jpg"],
-				[UIImage imageNamed:@"rollerdisco.jpg"],nil];
+				[UIImage imageNamed:@"indie.png"],
+				[UIImage imageNamed:@"doc.png"],
+				[UIImage imageNamed:@"roller.png"],nil];
 	
 	comingSoonImageView.animationImages = comingSoonImages;
 	comingSoonImageView.animationDuration = 15;

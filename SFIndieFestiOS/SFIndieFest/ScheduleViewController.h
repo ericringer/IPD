@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScheduleViewController : UITableViewController
+@interface ScheduleViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 -(IBAction)menuButton:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end

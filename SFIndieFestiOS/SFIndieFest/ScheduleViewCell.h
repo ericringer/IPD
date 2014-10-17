@@ -15,5 +15,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *filmTime;
 @property (strong, nonatomic) Film *film;
 @property (strong, nonatomic) EKEventStore *eventStore;
-
+- (IBAction)btnReminder:(id)sender;
 @end

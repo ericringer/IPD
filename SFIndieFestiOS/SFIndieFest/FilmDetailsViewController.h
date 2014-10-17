@@ -14,4 +14,5 @@
 @property (strong, nonatomic) IBOutlet UITextView *filmSynopsis;
 @property (strong, nonatomic) IBOutlet UILabel *dateTimeLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *filmImage;
+
 @end

@@ -42,11 +42,11 @@
 		537BFED619D13D4400286610 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BFED519D13D4400286610 /* MapViewController.m */; };
 		537BFED819D1414500286610 /* share-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 537BFED719D1414500286610 /* share-48.png */; };
 		537BFEDB19D1430800286610 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BFEDA19D1430800286610 /* WebViewController.m */; };
-		53C71BD519F0520C0046FD17 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C71BD319F0520C0046FD17 /* Bolts.framework */; };
-		53C71BD619F0520C0046FD17 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C71BD419F0520C0046FD17 /* Parse.framework */; };
-		53C71BD819F066630046FD17 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C71BD719F066630046FD17 /* doc.png */; };
-		53C71BDA19F0666C0046FD17 /* indie.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C71BD919F0666C0046FD17 /* indie.png */; };
-		53C71BDC19F0667B0046FD17 /* roller.png in Resources */ = {isa = PBXBuildFile; fileRef = 53C71BDB19F0667B0046FD17 /* roller.png */; };
+		53D7D83A19F5B17700B56DED /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D7D83819F5B17700B56DED /* Bolts.framework */; };
+		53D7D83B19F5B17800B56DED /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D7D83919F5B17700B56DED /* Parse.framework */; };
+		53D7D83D19F5B1A700B56DED /* indie.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D83C19F5B1A700B56DED /* indie.png */; };
+		53D7D83F19F5B1AC00B56DED /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D83E19F5B1AC00B56DED /* doc.png */; };
+		53D7D84119F5B1B300B56DED /* roller.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D84019F5B1B300B56DED /* roller.png */; };
 		574B7E0519DA7718006D7AD1 /* at.png in Resources */ = {isa = PBXBuildFile; fileRef = 574B7DF119DA7718006D7AD1 /* at.png */; };
 		574B7E0619DA7718006D7AD1 /* bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 574B7DF219DA7718006D7AD1 /* bw.png */; };
 		574B7E0719DA7718006D7AD1 /* cd.png in Resources */ = {isa = PBXBuildFile; fileRef = 574B7DF319DA7718006D7AD1 /* cd.png */; };
@@ -149,11 +149,11 @@
 		537BFED719D1414500286610 /* share-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-48.png"; sourceTree = "<group>"; };
 		537BFED919D1430800286610 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		537BFEDA19D1430800286610 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		53C71BD319F0520C0046FD17 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Desktop/parse-library-1.4.1/Bolts.framework"; sourceTree = "<group>"; };
-		53C71BD419F0520C0046FD17 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Desktop/parse-library-1.4.1/Parse.framework"; sourceTree = "<group>"; };
-		53C71BD719F066630046FD17 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
-		53C71BD919F0666C0046FD17 /* indie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indie.png; sourceTree = "<group>"; };
-		53C71BDB19F0667B0046FD17 /* roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roller.png; sourceTree = "<group>"; };
+		53D7D83819F5B17700B56DED /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		53D7D83919F5B17700B56DED /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		53D7D83C19F5B1A700B56DED /* indie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indie.png; sourceTree = "<group>"; };
+		53D7D83E19F5B1AC00B56DED /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+		53D7D84019F5B1B300B56DED /* roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roller.png; sourceTree = "<group>"; };
 		574B7DF119DA7718006D7AD1 /* at.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = at.png; sourceTree = "<group>"; };
 		574B7DF219DA7718006D7AD1 /* bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bw.png; sourceTree = "<group>"; };
 		574B7DF319DA7718006D7AD1 /* cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd.png; sourceTree = "<group>"; };
@@ -208,13 +208,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C71BD519F0520C0046FD17 /* Bolts.framework in Frameworks */,
+				53D7D83A19F5B17700B56DED /* Bolts.framework in Frameworks */,
 				574F88E319ECCDF9004C80F5 /* SystemConfiguration.framework in Frameworks */,
 				574F88E119ECCDF1004C80F5 /* StoreKit.framework in Frameworks */,
 				574F88DF19ECCDEA004C80F5 /* Security.framework in Frameworks */,
 				574F88DD19ECCDE2004C80F5 /* QuartzCore.framework in Frameworks */,
 				574F88DB19ECCDD9004C80F5 /* MobileCoreServices.framework in Frameworks */,
-				53C71BD619F0520C0046FD17 /* Parse.framework in Frameworks */,
+				53D7D83B19F5B17800B56DED /* Parse.framework in Frameworks */,
 				574F88D919ECCDD1004C80F5 /* libz.dylib in Frameworks */,
 				574F88D719ECCDC0004C80F5 /* CFNetwork.framework in Frameworks */,
 				574F88D519ECCDB7004C80F5 /* AudioToolbox.framework in Frameworks */,
@@ -262,8 +262,8 @@
 		537BFE7219C8B53000286610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53C71BD319F0520C0046FD17 /* Bolts.framework */,
-				53C71BD419F0520C0046FD17 /* Parse.framework */,
+				53D7D83819F5B17700B56DED /* Bolts.framework */,
+				53D7D83919F5B17700B56DED /* Parse.framework */,
 				574F88E219ECCDF9004C80F5 /* SystemConfiguration.framework */,
 				574F88E019ECCDF1004C80F5 /* StoreKit.framework */,
 				574F88DE19ECCDEA004C80F5 /* Security.framework */,
@@ -366,9 +366,9 @@
 		537BFEDC19D1431E00286610 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				53C71BDB19F0667B0046FD17 /* roller.png */,
-				53C71BD919F0666C0046FD17 /* indie.png */,
-				53C71BD719F066630046FD17 /* doc.png */,
+				53D7D83E19F5B1AC00B56DED /* doc.png */,
+				53D7D84019F5B1B300B56DED /* roller.png */,
+				53D7D83C19F5B1A700B56DED /* indie.png */,
 				574B7DF119DA7718006D7AD1 /* at.png */,
 				574B7DF219DA7718006D7AD1 /* bw.png */,
 				574B7DF319DA7718006D7AD1 /* cd.png */,
@@ -480,10 +480,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D7D83F19F5B1AC00B56DED /* doc.png in Resources */,
 				574B7E0E19DA7718006D7AD1 /* house.png in Resources */,
 				574B7E1019DA7718006D7AD1 /* malignant.png in Resources */,
 				574B7E0A19DA7718006D7AD1 /* dp.png in Resources */,
 				574B7E0B19DA7718006D7AD1 /* dust.png in Resources */,
+				53D7D83D19F5B1A700B56DED /* indie.png in Resources */,
 				574B7E1819DA7719006D7AD1 /* acd.png in Resources */,
 				537BFEB319CB876E00286610 /* search-50.png in Resources */,
 				537BFEAF19CB875100286610 /* home-50.png in Resources */,
@@ -497,7 +499,6 @@
 				537BFED019CB927900286610 /* sfindieicon.png in Resources */,
 				574B7E0619DA7718006D7AD1 /* bw.png in Resources */,
 				537BFED819D1414500286610 /* share-48.png in Resources */,
-				53C71BDA19F0666C0046FD17 /* indie.png in Resources */,
 				537BFE7E19C8B53000286610 /* InfoPlist.strings in Resources */,
 				574B7E1119DA7718006D7AD1 /* mg.png in Resources */,
 				574B7E0919DA7718006D7AD1 /* ct.png in Resources */,
@@ -505,9 +506,8 @@
 				537BFE8719C8B53000286610 /* Main.storyboard in Resources */,
 				574B7E0F19DA7718006D7AD1 /* judas.png in Resources */,
 				574B7E1219DA7718006D7AD1 /* onair.png in Resources */,
+				53D7D84119F5B1B300B56DED /* roller.png in Resources */,
 				574B7E0819DA7718006D7AD1 /* cf.png in Resources */,
-				53C71BDC19F0667B0046FD17 /* roller.png in Resources */,
-				53C71BD819F066630046FD17 /* doc.png in Resources */,
 				574B7E1519DA7719006D7AD1 /* return_image.png in Resources */,
 				537BFEA919C92FF500286610 /* list.png in Resources */,
 				574B7E1319DA7718006D7AD1 /* patrick.png in Resources */,
@@ -685,21 +685,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: eric ringer (8PN65NCCJY)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/equiroz_345/Dropbox/Dev/Android_iOS/Eric,
-					"Ringer/SFIndieFestiOS/parse-library-1.4.1",
-					"/Users/equiroz_345/Dropbox/Dev/Android_iOS/SFIndieFestiOS/parse-library-1.4.1",
-					"$(PROJECT_DIR)/parse-library-1.4.1",
 					"$(PROJECT_DIR)",
-					"/Users/ericringer/Desktop/parse-library-1.4.1",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
-					"$(inherited)",
-					/Users/equiroz_345/Dropbox/Dev/Android_iOS/Eric,
-					"Ringer/SFIndieFestiOS/parse-library-1.4.1",
-					"/Users/equiroz_345/Dropbox/Dev/Android_iOS/SFIndieFestiOS/parse-library-1.4.1",
-					"$(PROJECT_DIR)/parse-library-1.4.1",
-					"$(PROJECT_DIR)",
-					"/Users/ericringer/Desktop/parse-library-1.4.1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFIndieFest/SFIndieFest-Prefix.pch";
@@ -718,21 +704,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: eric ringer (8PN65NCCJY)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/equiroz_345/Dropbox/Dev/Android_iOS/Eric,
-					"Ringer/SFIndieFestiOS/parse-library-1.4.1",
-					"/Users/equiroz_345/Dropbox/Dev/Android_iOS/SFIndieFestiOS/parse-library-1.4.1",
-					"$(PROJECT_DIR)/parse-library-1.4.1",
 					"$(PROJECT_DIR)",
-					"/Users/ericringer/Desktop/parse-library-1.4.1",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
-					"$(inherited)",
-					/Users/equiroz_345/Dropbox/Dev/Android_iOS/Eric,
-					"Ringer/SFIndieFestiOS/parse-library-1.4.1",
-					"/Users/equiroz_345/Dropbox/Dev/Android_iOS/SFIndieFestiOS/parse-library-1.4.1",
-					"$(PROJECT_DIR)/parse-library-1.4.1",
-					"$(PROJECT_DIR)",
-					"/Users/ericringer/Desktop/parse-library-1.4.1",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFIndieFest/SFIndieFest-Prefix.pch";

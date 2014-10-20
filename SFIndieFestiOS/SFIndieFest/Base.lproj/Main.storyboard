@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NLe-40-uAM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NLe-40-uAM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--Film Table View Controller - Films-->
@@ -46,9 +46,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Films" id="njo-SQ-BXa"/>
-                    <connections>
-                        <segue destination="JtO-34-Ul4" kind="push" id="HW0-il-VsV"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WFr-bC-RJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,7 +74,7 @@
                     <navigationItem key="navigationItem" title="Buy Tickets" id="bBt-gm-bf9"/>
                     <connections>
                         <outlet property="buyWebView" destination="O0d-lb-pa9" id="9y6-OB-0Qo"/>
-                        <segue destination="unl-qH-AGq" kind="push" id="IYC-tx-TDB"/>
+                        <segue destination="unl-qH-AGq" kind="push" identifier="About" id="IYC-tx-TDB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iD8-BC-Vhb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -305,7 +302,7 @@
         <!--Film Details View Controller - Film Details-->
         <scene sceneID="xjM-Y9-cuI">
             <objects>
-                <viewController id="sTp-Jk-vO6" customClass="FilmDetailsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FilmDetails" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sTp-Jk-vO6" customClass="FilmDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4FE-44-85P"/>
                         <viewControllerLayoutGuide type="bottom" id="kAw-rz-eom"/>
@@ -363,7 +360,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="96r-OW-2mc" kind="push" id="dpW-YY-ok0"/>
+                                    <segue destination="96r-OW-2mc" kind="push" identifier="Map" id="dpW-YY-ok0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date &amp; Time  Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9J7-bD-95l">
@@ -429,7 +426,7 @@
         <!--Map View Controller - Theater and Location-->
         <scene sceneID="9r3-84-D1I">
             <objects>
-                <viewController id="96r-OW-2mc" customClass="MapViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="96r-OW-2mc" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jzS-Qh-13h"/>
                         <viewControllerLayoutGuide type="bottom" id="LHf-gS-ZNB"/>
@@ -517,7 +514,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="4iW-7m-q9K" kind="push" id="jmW-zc-1NO"/>
+                        <segue destination="4iW-7m-q9K" kind="push" identifier="Films" id="jmW-zc-1NO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9zy-qD-LYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -573,10 +570,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Reminders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKz-8S-u8m">
-                                <rect key="frame" x="0.0" y="72" width="320" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Reminders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKz-8S-u8m">
+                                <rect key="frame" x="104" y="72" width="113" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -655,6 +652,10 @@
     <resources>
         <image name="holehead2013.png" width="300" height="400"/>
         <image name="list.png" width="40" height="40"/>
+        <image name="list.png" width="40" height="40"/>
+        <image name="list.png" width="40" height="40"/>
+        <image name="list.png" width="40" height="40"/>
+        <image name="menu-50.png" width="50" height="50"/>
         <image name="menu-50.png" width="50" height="50"/>
         <image name="sfindieicon.png" width="200" height="100"/>
     </resources>

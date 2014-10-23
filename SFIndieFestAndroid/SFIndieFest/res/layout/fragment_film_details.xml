@@ -1,0 +1,110 @@
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:padding="10dp"
+     android:background="@color/light_grey"
+     android:orientation="vertical">
+    
+     <ImageView
+        android:id="@+id/imgFilm"
+        android:contentDescription="@string/films"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@drawable/logo" />
+
+     <TextView
+         android:id="@+id/txtDateLocation"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/imgFilm"
+         android:layout_centerHorizontal="true"
+         android:text="@string/date_time_location"
+         android:textStyle="bold"
+         android:textAppearance="?android:attr/textAppearanceMedium" />      
+     <TextView
+         android:id="@+id/lblReminder"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txtDateLocation"
+         android:layout_alignLeft="@+id/txtDateLocation"
+         android:layout_alignTop="@+id/toggleReminder"
+         android:layout_alignBottom="@+id/toggleReminder"
+         android:text="@string/reminder_"
+         android:gravity="center"
+         android:textAppearance="?android:attr/textAppearanceMedium" />   
+       
+    <ToggleButton
+        android:id="@+id/toggleReminder"
+        android:layout_below="@+id/txtDateLocation"
+        android:layout_width="wrap_content"
+         android:layout_toRightOf="@+id/lblReminder"
+        android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/light_grey"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/toggleReminder"
+                android:contentDescription="@string/divider" />
+			<ScrollView
+                android:background="@drawable/border"
+                android:id="@+id/laySynopsis"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/divider"
+                android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/txtSynopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/film_synopsis"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+			</ScrollView>
+			
+			<ScrollView
+                android:layout_below="@+id/laySynopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+            <Button
+                android:id="@+id/btnTrailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trailer" />
+            
+            <Button
+                android:id="@+id/btnBuyTickets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/buy_tickets" />
+            <Button
+                android:id="@+id/btnTheaterMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/theater_map" />
+            <Button
+                android:id="@+id/btnPostComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/post_a_comment" />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
+

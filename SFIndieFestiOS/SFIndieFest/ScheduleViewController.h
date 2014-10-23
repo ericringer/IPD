@@ -11,6 +11,6 @@
 @interface ScheduleViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 -(IBAction)menuButton:(id)sender;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UITableView *theTableView;
 
 @end

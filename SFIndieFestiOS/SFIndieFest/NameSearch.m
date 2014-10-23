@@ -9,20 +9,28 @@
 #import "NameSearch.h"
 @implementation NameSearch
 
+//Perform name search, accepts search string, view controller and ResultBlock with NameSearchResult parameter
 -(void)performSearch:(NSString *)search ViewController:(UIViewController *)controller ResultBlock:(void (^) (NameSearchResult * result)) block{
     if (!block)
         return;
+    
+    //Create alert view with activity indicator while result is retrieved
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Name Search" message:@"Please wait..." delegate:self cancelButtonTitle:nil otherButtonTitles: nil];
     UIActivityIndicatorView * indicator = [self getAlertIndicator:controller Alert:alert];
     
     [alert show];
     [indicator startAnimating];
     
+    //Rerieve results in seperate thread
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NameSearchResult * searchResult  = [self performSearch:search];
         dispatch_async(dispatch_get_main_queue(), ^{
+            
+            //Dismiss indicator on main thread
             [indicator stopAnimating];
             [alert dismissWithClickedButtonIndex:0 animated:true];
+            
+            //Send the results to the Result block
             block(searchResult);
             
         });
@@ -30,6 +38,7 @@
     
 }
 
+//Create activity indicator
 -(UIActivityIndicatorView *)getAlertIndicator:(UIViewController *)controller Alert:(UIAlertView * )alert{
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
@@ -43,6 +52,8 @@
     return indicator;
     
 }
+
+//Persom search on given search name
 -(NameSearchResult *)performSearch:(NSString *)search{
     NSString* encodedSearch = [search stringByAddingPercentEscapesUsingEncoding:
                             NSUTF8StringEncoding];
@@ -51,6 +62,8 @@
     
     return [[NameSearchResult alloc] initWithResponse:response];
 }
+
+//Perform GET request on given url and return response as NSData
 -(NSData *) performGET:(NSString *) url{
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
     [request setURL:[NSURL URLWithString:url]];

@@ -27,11 +27,14 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Set nav title font
     [self.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
     
+    //Load web view with trailer url
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [film trailerUrl]] cachePolicy: NSURLRequestUseProtocolCachePolicy timeoutInterval: 10];
     [self.trailerWebView loadRequest: request];
 }

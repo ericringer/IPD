@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#include <EventKit/EventKit.h>
 
 @interface FilmTableViewController : UITableViewController
-
+@property (strong, nonatomic) EKEventStore *eventStore;
 @end

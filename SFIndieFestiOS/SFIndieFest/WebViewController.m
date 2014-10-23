@@ -29,11 +29,14 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
+    
+    //Set nav title font
     [self.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
     
+    //Load webview with purchase url
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [film getPurchaseUrl]] cachePolicy: NSURLRequestUseProtocolCachePolicy timeoutInterval: 10];
     [self.buyWebView loadRequest: request];
 }

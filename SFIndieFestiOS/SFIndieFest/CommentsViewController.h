@@ -10,6 +10,6 @@
 
 @interface CommentsViewController : UIViewController<UITableViewDataSource,UITableViewDataSource,UIAlertViewDelegate>
 -(IBAction)menuButton:(id)sender;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UITableView *theTableView;
 
 @end

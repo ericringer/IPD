@@ -11,13 +11,14 @@
 @implementation Film
 @synthesize filmTitle,filmImageName,dateTime,convertedDate,synopsis,trailerUrl,filmUid,reminder;
 
-
+//Custom init method that only recieves a title
 -(Film*)initWithTitle:(NSString *)title
 {
     filmTitle = title;
     return self;
 }
 
+//Custom init method that recieves title,image name, date, synopsis and trailerUrl
 -(Film*)initWithValues:(NSString *)title FilmImage:(NSString *)imageName DateTime:(NSString *)date Synopsis:(NSString *) synops TrialerUrl:(NSString *)trailer FilmUid:(NSString *)uid
 {
     filmTitle = title;
@@ -33,14 +34,21 @@
     [dateFormatter setDateFormat:@"MM/dd/yyyy hh:mm a"];
     
     convertedDate = [dateFormatter dateFromString:dateTime];
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDateComponents *comps = [gregorian components:NSUIntegerMax fromDate:convertedDate];
+    [comps setHour:9];
+    [comps setMinute:0];
+    convertedDate = [gregorian dateFromComponents:comps];
     return self;
 }
 
+//Returns films purchase url
 -(NSString *)getPurchaseUrl
 {
 return @"http://www.brownpapertickets.com/";
 }
 
+//Static method that returns an array of Films
 +(NSArray *)getStaticFilms
 {
     NSMutableArray *films = [[NSMutableArray alloc]init];

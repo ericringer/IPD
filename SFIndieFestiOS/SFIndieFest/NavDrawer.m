@@ -11,11 +11,12 @@
 @synthesize parentView,navDrawerWidth, navDrawerX, openDrawer, closeDrawer, menuItems,navDrawer;
 
 
-
+//Open or close drawer on swipe gesture
 -(void)handleSwipes:(UISwipeGestureRecognizer *)sender{
     [self swingDrawer];
 }
 
+//Open or close drawer based on x position
 -(void)swingDrawer{
     
     [UIView beginAnimations:nil context:nil];
@@ -34,10 +35,10 @@
     [UIView commitAnimations];
 }
 
-
+//Creates nav drawer
 -(void)createDrawer
 {
-    
+    //Prepare drawer
     int statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
     int navBarHeight = parentView.navigationController.navigationBar.frame.size.height + statusBarHeight;
     navDrawerWidth = parentView.view.frame.size.width * 0.75;
@@ -54,6 +55,7 @@
     [parentView.view addGestureRecognizer:openDrawer];
     [parentView.view addGestureRecognizer:closeDrawer];
     
+    //Scroll view for nav items
     UIScrollView *theScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(3.0f, 10.0f, navDrawerWidth, navDrawer.frame.size.height)];
     [theScrollView setScrollEnabled:YES];
     [theScrollView setShowsHorizontalScrollIndicator:NO];
@@ -63,7 +65,7 @@
     [theScrollView setCanCancelContentTouches:NO];
     [theScrollView setClipsToBounds:YES];
     
-    
+    //Dimension of nav items
     float orderOfButtons = 10.0f;
     float buttonWidth = 227.0f;
     float buttonHeight = 50.0f;
@@ -79,15 +81,17 @@
     
     orderOfButtons += (buttonHeight + buttonSeparator);
 
-    menuItems = [[NSArray alloc]initWithObjects:@"Home", @"Films", @"Schedule", @"Search", @"Comments", @"About SF IndieFest", nil];
+    //Array of nav item titles
+    menuItems = [[NSArray alloc]initWithObjects:@"Home", @"Films", @"Schedule", @"Search", @"Comment Feed", @"About SF IndieFest", nil];
+    
+    //Loop through menuItems array and add nav item
     for(int b=0; b<[menuItems count]; b++){
     UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(3.0f, orderOfButtons + ((    buttonHeight - 30)/ 2), 30, 30)];
         [image setImage:[self getNavImage:b]];
                 [theScrollView addSubview:image];
         UIButton *theButton = [[UIButton alloc]initWithFrame:CGRectMake(3.0f, orderOfButtons, buttonWidth, buttonHeight)];
-        theButton.font = [UIFont fontWithName:@"Superclarendon" size:14];
+        theButton.font = [UIFont fontWithName:@"Superclarendon-Regular" size:14];
         theButton.tag = b;
-        //theButton.backgroundColor = [UIColor cyanColor];
         [theButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [theButton setTag:b];
         [theButton setTitle:[menuItems objectAtIndex:b] forState:UIControlStateNormal];
@@ -106,9 +110,11 @@
     [parentView.navigationController.view addSubview:navDrawer];
     [parentView.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
-      [UIFont fontWithName:@"Superclarendon-Bold " size:17],
+      [UIFont fontWithName:@"Superclarendon-Bold" size:17],
       NSFontAttributeName, nil]];
 }
+
+//Get nav item image based on index
 -(UIImage *)getNavImage:(int)navIndex{
     NSString * imageName;
     switch (navIndex) {
@@ -136,6 +142,7 @@
     return [UIImage imageNamed:imageName];
 }
 
+//Close drawer and push appropriate view controller
 -(void)drawerButton:(UIButton *)sender
 {
     
@@ -165,6 +172,7 @@
     }
 }
 
+//Push view controller based on Storyboard identifier
 -(void)pushVC:(NSString *) identifier
 {
     NSString *restorationId = parentView.restorationIdentifier;

@@ -16,7 +16,7 @@
 @end
 
 @implementation FilmTableViewController
-
+@synthesize eventStore;
 NSArray * films;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,17 +31,61 @@ NSArray * films;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Set nav title font
     [self.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
     NSLog(@"View Did Load");
+    
+    //Retrieve film array
     films = [Film getStaticFilms];
+
+    //Prepare event store for reminders and load reminders into the film objects
+    eventStore = [[EKEventStore alloc] init];
+    [eventStore requestAccessToEntityType:EKEntityTypeReminder
+                               completion:^(BOOL granted, NSError *error) {
+                                   if (granted){
+                                       [self loadReminders];
+                                   }else{
+                                       NSLog(@"Access to store not granted");
+                                   }
+                                   return;
+                               }];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+//Retrieve all reminders and load matching reminders into corresponding film object
+-(void)loadReminders{
+    EKCalendar *calendar = [eventStore defaultCalendarForNewReminders];
+    NSPredicate *predicate = [eventStore predicateForRemindersInCalendars:@[calendar]];
+    
+    [eventStore fetchRemindersMatchingPredicate:predicate  completion:^(NSArray *reminders) {
+        for (int i=0; i<films.count; i++) {
+            EKReminder * reminder = [self getReminderForFilm:reminders Film:[films objectAtIndex:i]];
+            Film * film = [films objectAtIndex:i];
+            [film setReminder:reminder];
+        }
+    }];
+    
+    
+}
+
+//Retrieve reminder from array for given film title
+-(EKReminder *)getReminderForFilm:(NSArray *)reminders Film:(Film *)film{
+    for (int i=0; i<reminders.count; i++) {
+        if ([[[reminders objectAtIndex:i] title] isEqualToString:[film filmTitle]])
+        {
+            return [reminders objectAtIndex:i];
+        }
+    }
+    return nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,19 +96,21 @@ NSArray * films;
 
 #pragma mark - Table view data source
 
+//Returb 1 table section
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
     return 1;
 }
 
+//Return film count for table view
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"Film Count: %i", [films count]);
+    NSLog(@"Film Count: %lu", (unsigned long)[films count]);
     return [films count];
 }
 
-
+//Load film title and film image into cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -128,11 +174,12 @@ NSArray * films;
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    //Pass film object and event store into FilmDetailsViewController
     if([segue.identifier isEqualToString:@"FilmDetails"]){
         FilmDetailsViewController *vc = [segue destinationViewController];
         
         Film * film = [films objectAtIndex:[self.tableView indexPathForSelectedRow].row];
-        
+        [vc setEventStore:eventStore];
         [vc setFilm:film];
     }
     

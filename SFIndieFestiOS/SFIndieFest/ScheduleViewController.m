@@ -16,7 +16,7 @@
 @end
 
 @implementation ScheduleViewController
-@synthesize tableView;
+@synthesize theTableView;
 NavDrawer * navDrawer;
 NSArray * films;
 EKEventStore *eventStore;
@@ -33,57 +33,33 @@ EKEventStore *eventStore;
 {
     [super viewDidLoad];
     
+    //Load nav drawer
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
     
+    //Set nav title font
     [self.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
       [UIFont fontWithName:@"Superclarendon-Bold " size:17],
       NSFontAttributeName, nil]];
 
+    //Load films and sort by film
     films = [Film getStaticFilms];
-    
-    eventStore = [[EKEventStore alloc] init];
-    [eventStore requestAccessToEntityType:EKEntityTypeReminder
-                               completion:^(BOOL granted, NSError *error) {
-                                   if (granted){
-                                       [self loadReminders];
-                                   }else{
-                                       NSLog(@"Access to store not granted");
-                                   }
-                                   return;
-                               }];
+    films = [films sortedArrayUsingComparator:
+                                            ^(id obj1, id obj2) {
+                                                
+                                                Film *film1 = (Film *)obj1;
+                                                 Film *film2 = (Film *)obj2;
+                                                
+                                                return [[film1 dateTime] compare:[film2 dateTime]];
+                                            }];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
--(void)loadReminders{
-    EKCalendar *calendar = [eventStore defaultCalendarForNewReminders];
-    NSPredicate *predicate = [eventStore predicateForRemindersInCalendars:@[calendar]];
-    
-    [eventStore fetchRemindersMatchingPredicate:predicate  completion:^(NSArray *reminders) {
-        for (int i=0; i<films.count; i++) {
-            EKReminder * reminder = [self getReminderForFilm:reminders Film:[films objectAtIndex:i]];
-            Film * film = [films objectAtIndex:i];
-            [film setReminder:reminder];
-        }
-        [tableView reloadData];
-    }];
-    
-
-}
--(EKReminder *)getReminderForFilm:(NSArray *)reminders Film:(Film *)film{
-    for (int i=0; i<reminders.count; i++) {
-        if ([[[reminders objectAtIndex:i] title] isEqualToString:[film filmTitle]])
-        {
-            return [reminders objectAtIndex:i];
-        }
-    }
-    return nil;
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
@@ -107,11 +83,11 @@ EKEventStore *eventStore;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"Film Count: %i", [films count]);
+    NSLog(@"Film Count: %lu", (unsigned long)[films count]);
     return [films count];
 }
 
-
+//Load film title and date into cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -125,26 +101,18 @@ EKEventStore *eventStore;
     
     Film * film = [films objectAtIndex:indexPath.row];
     [cell setFilm:film];
-    [cell setEventStore:eventStore];
     [[cell scheduleText] setText:[film filmTitle]];
     [[cell filmTime] setText:[film dateTime]];
-    [[cell scheduleSwitch] setOn:NO];
-    if([film reminder] !=nil)[[cell scheduleSwitch] setOn:YES];
     return cell;
     
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    ScheduleViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    
-    BOOL isSet = [cell.scheduleSwitch isOn];
-    [cell.scheduleSwitch setOn:!isSet animated:YES];
-   [cell btnReminder:self];
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    [theTableView deselectRowAtIndexPath:indexPath animated:YES];
     
 }
+
+//Open or close drawer
 -(IBAction)menuButton:(id)sender {
     [navDrawer swingDrawer];
 }

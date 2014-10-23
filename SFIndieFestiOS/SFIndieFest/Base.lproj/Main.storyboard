@@ -56,8 +56,8 @@
             <objects>
                 <viewController storyboardIdentifier="WebView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fKN-sd-TPx" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="h7a-Hn-8mF"/>
-                        <viewControllerLayoutGuide type="bottom" id="Omp-ap-2Kl"/>
+                        <viewControllerLayoutGuide type="top" id="0du-9O-e73"/>
+                        <viewControllerLayoutGuide type="bottom" id="xNo-JD-CFv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1bq-KW-5a6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -86,8 +86,8 @@
             <objects>
                 <viewController storyboardIdentifier="Search" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sne-5k-y9W" customClass="SearchViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CiS-0L-JNN"/>
-                        <viewControllerLayoutGuide type="bottom" id="3d8-mX-nmH"/>
+                        <viewControllerLayoutGuide type="top" id="f72-P3-IoZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="80y-jw-G90"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IYy-4K-WRc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -102,7 +102,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C5j-Il-EnP">
                                 <rect key="frame" x="5" y="98" width="249" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="sne-5k-y9W" id="Fn4-jV-UJY"/>
@@ -113,12 +113,21 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="7sh-aj-Ra0">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="omH-6y-GXc" style="IBUITableViewCellStyleDefault" id="7sh-aj-Ra0">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7sh-aj-Ra0" id="rG6-i6-CxZ">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="omH-6y-GXc">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -128,8 +137,9 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y16-d2-Tjg">
-                                <rect key="frame" x="260" y="98" width="53" height="30"/>
+                                <rect key="frame" x="262" y="98" width="53" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
                                 <state key="normal" title="Search">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -155,7 +165,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="Cq7-zi-wCE" id="bux-iF-XbS"/>
+                        <outlet property="theTableView" destination="Cq7-zi-wCE" id="tDE-5e-2Kq"/>
                         <outlet property="txtSearch" destination="C5j-Il-EnP" id="ELs-Y6-x0b"/>
                     </connections>
                 </viewController>
@@ -163,13 +173,13 @@
             </objects>
             <point key="canvasLocation" x="689" y="782"/>
         </scene>
-        <!--Comments View Controller - Film Comments-->
+        <!--Comments View Controller - Comment Feed-->
         <scene sceneID="AaG-ob-XIk">
             <objects>
-                <viewController storyboardIdentifier="Comments" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5uS-ys-2Dl" customClass="CommentsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Comments" title="Comment Feed" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5uS-ys-2Dl" customClass="CommentsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gsT-jT-EbG"/>
-                        <viewControllerLayoutGuide type="bottom" id="VOm-Pa-GJ8"/>
+                        <viewControllerLayoutGuide type="top" id="OHH-kC-RGi"/>
+                        <viewControllerLayoutGuide type="bottom" id="u3U-yt-mAS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iST-hs-irq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -179,6 +189,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="Ofv-V5-zdv" detailTextLabel="s7T-oW-jya" style="IBUITableViewCellStyleSubtitle" id="peU-Dd-TPQ">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -188,16 +199,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ofv-V5-zdv">
-                                                    <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                                    <rect key="frame" x="15" y="5" width="36" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s7T-oW-jya">
-                                                    <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                                    <rect key="frame" x="15" y="25" width="38" height="13"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="11"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -214,7 +225,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Film Comments" id="xnw-Jn-icG">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="b1c-Rb-0Sp">
+                        <barButtonItem key="leftBarButtonItem" title="Comment Feed" style="plain" id="b1c-Rb-0Sp">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2bX-Co-vvV">
                                 <rect key="frame" x="16" y="2" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -228,7 +239,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="FZy-xT-tkI" id="tpw-Lg-SIB"/>
+                        <outlet property="theTableView" destination="FZy-xT-tkI" id="4TG-G0-qv9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vnI-LV-N3R" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -240,31 +251,24 @@
             <objects>
                 <viewController storyboardIdentifier="About" useStoryboardIdentifierAsRestorationIdentifier="YES" id="unl-qH-AGq" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aVj-9z-pgU"/>
-                        <viewControllerLayoutGuide type="bottom" id="xgG-cy-93k"/>
+                        <viewControllerLayoutGuide type="top" id="bud-09-7R0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Txb-8b-Dla"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZIC-Ad-K7i">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="282" translatesAutoresizingMaskIntoConstraints="NO" id="Lay-FZ-Ay6">
-                                <rect key="frame" x="18" y="85" width="282" height="272"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="282" translatesAutoresizingMaskIntoConstraints="NO" id="Lay-FZ-Ay6">
+                                <rect key="frame" x="18" y="76" width="282" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">SF Indiefest is a year-round, 501c3 non-profit organization that has been operating since 1998. We present four annual festivals: the SF Independent Film Festival (SF Indie for short), the SF Documentary Festival (DocFest for short), the Santa Cruz Film Festival and Another Hole in the Head, our genre film festival. Last year over 21,000 film and event goers attended SF Indiefest events.</string>
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">SF Indiefest is a year-round, 501c3 non-profit organization that has been operating since 1998. We present four annual festivals: the SF Independent Film Festival (SF Indie for short), the SF Documentary Festival (DocFest for short), the Santa Cruz Film Festival and Another Hole in the Head, our genre film festival. Last year over 21,000 film and event goers attended SF Indiefest events.</string>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wun-Rc-n2O">
-                                <rect key="frame" x="9" y="387" width="300" height="21"/>
+                                <rect key="frame" x="0.0" y="387" width="320" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -273,6 +277,14 @@
                                 <rect key="frame" x="95" y="418" width="130" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This app uses push notifications to notify you of upcoming events" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="fbh-br-nRw">
+                                <rect key="frame" x="18" y="315" width="273" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -304,27 +316,19 @@
             <objects>
                 <viewController storyboardIdentifier="FilmDetails" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sTp-Jk-vO6" customClass="FilmDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4FE-44-85P"/>
-                        <viewControllerLayoutGuide type="bottom" id="kAw-rz-eom"/>
+                        <viewControllerLayoutGuide type="top" id="r7g-ZU-e1d"/>
+                        <viewControllerLayoutGuide type="bottom" id="W80-5A-zxQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mi0-1I-yrn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sfindieicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-J1-Nuf">
-                                <rect key="frame" x="40" y="92" width="240" height="175"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-J1-Nuf">
+                                <rect key="frame" x="40" y="82" width="240" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7b-2D-LfQ">
-                                <rect key="frame" x="40" y="69" width="240" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Film Synopsis" translatesAutoresizingMaskIntoConstraints="NO" id="yKI-FJ-9Fc">
-                                <rect key="frame" x="40" y="309" width="240" height="128"/>
+                                <rect key="frame" x="40" y="317" width="240" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -364,13 +368,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date &amp; Time  Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9J7-bD-95l">
-                                <rect key="frame" x="40" y="280" width="240" height="21"/>
+                                <rect key="frame" x="0.0" y="254" width="320" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8vn-lx-6jI">
+                                <rect key="frame" x="174" y="280" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnReminder:" destination="sTp-Jk-vO6" eventType="valueChanged" id="Gf3-ba-UFD"/>
+                                </connections>
+                            </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGz-j6-b9N">
-                                <rect key="frame" x="107" y="532" width="106" height="30"/>
+                                <rect key="frame" x="107" y="531" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
                                 <state key="normal" title="Post a comment">
@@ -380,6 +391,12 @@
                                     <segue destination="0fF-B3-ONi" kind="push" identifier="PostComment" id="w0k-Fi-GLG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminder:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djh-3g-tjQ">
+                                <rect key="frame" x="74" y="285" width="92" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -388,6 +405,7 @@
                         <outlet property="dateTimeLabel" destination="9J7-bD-95l" id="ibd-ZN-WK1"/>
                         <outlet property="filmImage" destination="VDJ-J1-Nuf" id="LeX-ME-Nsm"/>
                         <outlet property="filmSynopsis" destination="yKI-FJ-9Fc" id="yD3-GN-IRM"/>
+                        <outlet property="scheduleSwitch" destination="8vn-lx-6jI" id="6Eb-Xm-dsm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="weX-9q-suF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -399,8 +417,8 @@
             <objects>
                 <viewController id="l1k-Xj-jco" customClass="FilmTrailerViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7Fl-OQ-bWr"/>
-                        <viewControllerLayoutGuide type="bottom" id="W4h-nO-yLa"/>
+                        <viewControllerLayoutGuide type="top" id="hXg-5w-4dS"/>
+                        <viewControllerLayoutGuide type="bottom" id="jJc-ya-Z5F"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ufx-cs-BG7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -428,8 +446,8 @@
             <objects>
                 <viewController storyboardIdentifier="MapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="96r-OW-2mc" customClass="MapViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jzS-Qh-13h"/>
-                        <viewControllerLayoutGuide type="bottom" id="LHf-gS-ZNB"/>
+                        <viewControllerLayoutGuide type="top" id="lZW-hQ-ooY"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oh-4g-gvg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BxJ-8O-nyo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -470,7 +488,11 @@
             <objects>
                 <navigationController definesPresentationContext="YES" id="NLe-40-uAM" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JMx-HQ-seD">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Superclarendon-Bold" family="Superclarendon" pointSize="17"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="70p-JK-PJr" kind="relationship" relationship="rootViewController" id="EQD-GL-ziS"/>
@@ -485,8 +507,8 @@
             <objects>
                 <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="70p-JK-PJr" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="SAc-Vl-7FM"/>
-                        <viewControllerLayoutGuide type="bottom" id="teO-3a-eAU"/>
+                        <viewControllerLayoutGuide type="top" id="j4U-mL-6dS"/>
+                        <viewControllerLayoutGuide type="bottom" id="tiR-oq-rpf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tgw-m9-QIu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -526,8 +548,8 @@
             <objects>
                 <viewController storyboardIdentifier="PostComment" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0fF-B3-ONi" customClass="PostCommentViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YyE-oQ-hQ0"/>
-                        <viewControllerLayoutGuide type="bottom" id="7U5-Sv-0X1"/>
+                        <viewControllerLayoutGuide type="top" id="Het-Ta-j3b"/>
+                        <viewControllerLayoutGuide type="bottom" id="HvD-9Y-Wns"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v8b-U1-9je">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -537,7 +559,7 @@
                                 <rect key="frame" x="0.0" y="63" width="320" height="506"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -563,22 +585,15 @@
             <objects>
                 <viewController storyboardIdentifier="Schedule" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JtO-34-Ul4" customClass="ScheduleViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Af8-Zx-ATj"/>
-                        <viewControllerLayoutGuide type="bottom" id="sWr-zA-IIA"/>
+                        <viewControllerLayoutGuide type="top" id="lWj-dT-mSv"/>
+                        <viewControllerLayoutGuide type="bottom" id="sqL-Df-JOt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qzq-fc-Sn3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Reminders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKz-8S-u8m">
-                                <rect key="frame" x="104" y="72" width="113" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="A7T-Uj-gpv">
-                                <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -592,16 +607,9 @@
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Film Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVY-To-NzK">
                                                     <rect key="frame" x="6" y="5" width="263" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="40U-EC-wWP">
-                                                    <rect key="frame" x="266" y="6" width="51" height="31"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <connections>
-                                                        <action selector="btnReminder:" destination="1Wx-bZ-sfn" eventType="valueChanged" id="Nnb-5Y-2M6"/>
-                                                    </connections>
-                                                </switch>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Film Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz6-sn-MEq">
                                                     <rect key="frame" x="6" y="20" width="257" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -613,7 +621,6 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="filmTime" destination="Sz6-sn-MEq" id="pXI-rg-Qlu"/>
-                                            <outlet property="scheduleSwitch" destination="40U-EC-wWP" id="dJ2-3x-3D2"/>
                                             <outlet property="scheduleText" destination="EVY-To-NzK" id="Nrk-UU-Xsz"/>
                                         </connections>
                                     </tableViewCell>
@@ -641,7 +648,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="A7T-Uj-gpv" id="iXd-d4-9iE"/>
+                        <outlet property="theTableView" destination="A7T-Uj-gpv" id="Mfn-vb-nkc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4C-0v-XfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -653,7 +660,6 @@
         <image name="holehead2013.png" width="300" height="400"/>
         <image name="list.png" width="40" height="40"/>
         <image name="menu-50.png" width="50" height="50"/>
-        <image name="sfindieicon.png" width="200" height="100"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

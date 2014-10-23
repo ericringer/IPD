@@ -13,7 +13,7 @@
 @end
 
 @implementation SearchViewController
-@synthesize txtSearch,tableView;
+@synthesize txtSearch,theTableView;
 NavDrawer * navDrawer;
 NameSearchResult * searchResult;
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -28,6 +28,8 @@ NameSearchResult * searchResult;
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Load nav drawer
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
@@ -35,22 +37,26 @@ NameSearchResult * searchResult;
     
 }
 
-
+//Open or close nav drawer
 -(IBAction)menuButton:(id)sender
 {
     [navDrawer swingDrawer];
 }
 
+//Perform name search on user input and reload table view with result
 - (IBAction)btnSearch:(id)sender {
     [txtSearch resignFirstResponder];
     NameSearch * search = [[NameSearch alloc] init];
     [search performSearch:[txtSearch text] ViewController:self ResultBlock:^(NameSearchResult * result) {
+        
+        //Reload table view with search results
         searchResult = nil;
         searchResult = result;
-        [tableView reloadData];
+        [theTableView reloadData];
       }];
 }
 
+//Dismiss keyboard
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
@@ -74,7 +80,7 @@ NameSearchResult * searchResult;
     return searchResult.data.knownFor.count;
 }
 
-
+//Load KnownFor title on cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";

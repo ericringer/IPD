@@ -19,6 +19,7 @@
     return self;
 }
 
+//Init object with NSData
 - (id)initWithResponse:(NSData *)response
 {
     self = [super init];
@@ -27,6 +28,8 @@
     }
     return self;
 }
+
+//Parse name search response and populate data,dataMessage, and status objects
 -(void)assignValues:(NSData *)response{
     NSDictionary* json = [NSJSONSerialization
                           JSONObjectWithData:response

@@ -28,6 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
+
+//Post comment to Parse
 - (IBAction)btnPostComment:(id)sender {
     PFObject *filmComment = [PFObject objectWithClassName:@"filmComments"];
     filmComment[@"filmTitle"] = [film filmTitle];

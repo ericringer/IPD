@@ -10,6 +10,8 @@
 
 @implementation KnownFor
 @synthesize title,url;
+
+//Init object with NSDictionary
 - (id)initWithJSON:(NSDictionary *)json
 {
     self = [super init];
@@ -18,6 +20,8 @@
     }
     return self;
 }
+
+//Populate title and url from NSDictionary
 -(void)assignValues:(NSDictionary *)json{
     title = [json objectForKey:@"title"];
     url = [json objectForKey:@"url"];

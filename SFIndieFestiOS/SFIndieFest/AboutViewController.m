@@ -28,12 +28,15 @@ NavDrawer * navDrawer;
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Load nav drawer
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
     lblAbout.layer.borderColor = [UIColor blackColor].CGColor;
     lblAbout.layer.borderWidth = 1.0;
     
+    //Create array of coming soon film images and create "slideshow" animation
     NSArray * comingSoonImages = [NSArray arrayWithObjects:
 				[UIImage imageNamed:@"indie.png"],
 				[UIImage imageNamed:@"doc.png"],
@@ -46,6 +49,7 @@ NavDrawer * navDrawer;
 	
 }
 
+//Open or closr nav drawer
 -(IBAction)menuButton:(id)sender {
     [navDrawer swingDrawer];
 }

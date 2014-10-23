@@ -14,7 +14,7 @@
 @end
 
 @implementation CommentsViewController
-@synthesize tableView;
+@synthesize theTableView;
 NavDrawer * navDrawer;
 NSArray *comments;
 PFObject * selectedItem;
@@ -23,6 +23,8 @@ PFObject * selectedItem;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Load nav drawer
     navDrawer = [[NavDrawer alloc] init];
     [navDrawer setParentView:self];
     [navDrawer createDrawer];
@@ -30,12 +32,14 @@ PFObject * selectedItem;
     comments = [[NSArray alloc]init];
     
 }
+
+//Pu;; film comments from Parse and load reload table view
 -(void)viewDidAppear:(BOOL)animated{
         PFQuery *query = [PFQuery queryWithClassName:@"filmComments"];
         [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
             if (!error) {
                 comments = objects;
-                [tableView reloadData];
+                [theTableView reloadData];
             } else {
                 // Log details of the failure
                 NSLog(@"Error: %@ %@", error, [error userInfo]);
@@ -43,6 +47,8 @@ PFObject * selectedItem;
         }];
 
 }
+
+//Open or close nav drawer
 -(IBAction)menuButton:(id)sender {
     [navDrawer swingDrawer];
 }
@@ -67,11 +73,11 @@ PFObject * selectedItem;
     return [comments count];
 }
 
-
+//Load film title and film comment on cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [theTableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     if(cell == nil){
         cell = [[UITableViewCell alloc] initWithStyle:
                 UITableViewCellStyleSubtitle
@@ -87,11 +93,15 @@ PFObject * selectedItem;
     return cell;
     
 }
+
+//Dismiss keyboard
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
     return YES;
 }
+
+//Show alert view with full comment and option to share comment to Facebook
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     selectedItem = [comments objectAtIndex:indexPath.row];
@@ -104,6 +114,8 @@ PFObject * selectedItem;
 
     
 }
+
+//If share vutton is pressed share comment
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (buttonIndex == 1){
@@ -112,6 +124,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     selectedItem = nil;
 }
 
+//Share comment to Facebook
 - (void)shareComment:(NSString *)filmTitle Comment:(NSString *)comment {
     UIActivityViewController *controller =
     [[UIActivityViewController alloc]

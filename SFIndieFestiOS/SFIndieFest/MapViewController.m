@@ -30,6 +30,8 @@
     // Do any additional setup after loading the view.
 }
 - (IBAction)btnDirections:(id)sender {
+    
+    //Prepare Map
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(37.785756, -122.430597);
     MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:coordinate addressDictionary:nil];
     MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
@@ -39,6 +41,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    //Load pin on map and auto display pin details
     MKCoordinateSpan span = MKCoordinateSpanMake(0.01f, 0.01f);
     CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(37.785756, -122.430597);
     MKCoordinateRegion region = {coordinate, span};

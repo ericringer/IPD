@@ -19,6 +19,7 @@
     return self;
 }
 
+//Init object with NSDictionary
 - (id)initWithJSON:(NSDictionary *)json
 {
     self = [super init];
@@ -27,6 +28,8 @@
     }
     return self;
 }
+
+//Populate Data object with values from NSDictionary
 -(void)assignValues:(NSDictionary *)json{
     bio = [json objectForKey:@"bio"];
     birthDate = [json objectForKey:@"birthDate"];

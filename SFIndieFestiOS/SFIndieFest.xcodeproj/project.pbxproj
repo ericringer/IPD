@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5356C8E61A01FE7400EF19F7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5356C8E41A01FE7400EF19F7 /* Bolts.framework */; };
+		5356C8E71A01FE7400EF19F7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5356C8E51A01FE7400EF19F7 /* Parse.framework */; };
 		537BFE7419C8B53000286610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7319C8B53000286610 /* Foundation.framework */; };
 		537BFE7619C8B53000286610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7519C8B53000286610 /* CoreGraphics.framework */; };
 		537BFE7819C8B53000286610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537BFE7719C8B53000286610 /* UIKit.framework */; };
@@ -42,8 +44,6 @@
 		537BFED619D13D4400286610 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BFED519D13D4400286610 /* MapViewController.m */; };
 		537BFED819D1414500286610 /* share-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 537BFED719D1414500286610 /* share-48.png */; };
 		537BFEDB19D1430800286610 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BFEDA19D1430800286610 /* WebViewController.m */; };
-		53D7D84419F8347800B56DED /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D7D84219F8347800B56DED /* Bolts.framework */; };
-		53D7D84519F8347800B56DED /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D7D84319F8347800B56DED /* Parse.framework */; };
 		53D7D84719F8351F00B56DED /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D84619F8351F00B56DED /* doc.png */; };
 		53D7D84919F8352700B56DED /* indie.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D84819F8352700B56DED /* indie.png */; };
 		53D7D84B19F8352C00B56DED /* roller.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D7D84A19F8352C00B56DED /* roller.png */; };
@@ -99,6 +99,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5356C8E41A01FE7400EF19F7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5356C8E51A01FE7400EF19F7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		537BFE7019C8B53000286610 /* SFIndieFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFIndieFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537BFE7319C8B53000286610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		537BFE7519C8B53000286610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -149,8 +151,6 @@
 		537BFED719D1414500286610 /* share-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-48.png"; sourceTree = "<group>"; };
 		537BFED919D1430800286610 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		537BFEDA19D1430800286610 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		53D7D84219F8347800B56DED /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Desktop/parse-library-1.4.1/Bolts.framework"; sourceTree = "<group>"; };
-		53D7D84319F8347800B56DED /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Desktop/parse-library-1.4.1/Parse.framework"; sourceTree = "<group>"; };
 		53D7D84619F8351F00B56DED /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
 		53D7D84819F8352700B56DED /* indie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indie.png; sourceTree = "<group>"; };
 		53D7D84A19F8352C00B56DED /* roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roller.png; sourceTree = "<group>"; };
@@ -208,13 +208,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D7D84419F8347800B56DED /* Bolts.framework in Frameworks */,
+				5356C8E61A01FE7400EF19F7 /* Bolts.framework in Frameworks */,
 				574F88E319ECCDF9004C80F5 /* SystemConfiguration.framework in Frameworks */,
 				574F88E119ECCDF1004C80F5 /* StoreKit.framework in Frameworks */,
 				574F88DF19ECCDEA004C80F5 /* Security.framework in Frameworks */,
 				574F88DD19ECCDE2004C80F5 /* QuartzCore.framework in Frameworks */,
 				574F88DB19ECCDD9004C80F5 /* MobileCoreServices.framework in Frameworks */,
-				53D7D84519F8347800B56DED /* Parse.framework in Frameworks */,
+				5356C8E71A01FE7400EF19F7 /* Parse.framework in Frameworks */,
 				574F88D919ECCDD1004C80F5 /* libz.dylib in Frameworks */,
 				574F88D719ECCDC0004C80F5 /* CFNetwork.framework in Frameworks */,
 				574F88D519ECCDB7004C80F5 /* AudioToolbox.framework in Frameworks */,
@@ -262,8 +262,8 @@
 		537BFE7219C8B53000286610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53D7D84219F8347800B56DED /* Bolts.framework */,
-				53D7D84319F8347800B56DED /* Parse.framework */,
+				5356C8E41A01FE7400EF19F7 /* Bolts.framework */,
+				5356C8E51A01FE7400EF19F7 /* Parse.framework */,
 				574F88E219ECCDF9004C80F5 /* SystemConfiguration.framework */,
 				574F88E019ECCDF1004C80F5 /* StoreKit.framework */,
 				574F88DE19ECCDEA004C80F5 /* Security.framework */,
@@ -686,6 +686,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ericringer/Desktop/parse-library-1.4.1",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFIndieFest/SFIndieFest-Prefix.pch";
@@ -705,6 +706,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ericringer/Desktop/parse-library-1.4.1",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFIndieFest/SFIndieFest-Prefix.pch";
